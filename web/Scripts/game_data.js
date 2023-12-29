@@ -16,7 +16,7 @@
 
 let lastUpdate = "1/8/2024 (v7.0.3)"
 let cdnUrl = "https://sgs-game-cdn.pages.dev"
-let gitcdnUrl = "https://cdn-fs.onrender.com"
+let gitcdnUrl = "https://cdnfs.sumibi.org"
 //CHANGE IMAGES ON HOME PAGE TOO
 const data = [
     {
