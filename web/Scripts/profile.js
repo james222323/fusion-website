@@ -106,7 +106,7 @@ const achievement_data = [
         id: "bronze_rank",
         reward: "+1 Level + <img src='https://cdn.jsdelivr.net/gh/james222323/cdnfs@master/bronze.png' class='img-emoji2'> Rank",
         progress: null,
-        progress_info: { a: "play_games", b: 1, xp: 100, b_id: "1" }
+        progress_info: { a: "play_games", b: 3, xp: 10000000000, b_id: "1" }
     },
     {
         name: "Reach Level 30",
