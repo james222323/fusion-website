@@ -15,7 +15,7 @@
 
 
 let lastUpdate = "01/08/2024 (v7.0.2)"
-let gitcdnUrl = "https://cdn-fs.onrender.com"
+let gitcdnUrl = "https://cdnfs.sumibi.org"
 let sound_data = [
     {
         name: "-999 Social Credit",
