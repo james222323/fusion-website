@@ -38,17 +38,32 @@ const data = [
         // experimental: true
         //devices: "Computer, Mobile"
     },
+    {
+        name: "Madden Mobile 24",
+        id: "md24",
+        genre: "Sports",
+        description: "Madden NFL 24 is an American football video game developed by EA Tiburon and published by EA Sports.",
+        link: `https://fs3a.sumibi.org/mad24.html`,
+        img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/mad24.jpg`,
+        file_based: true,
+        publisher: "EA Sports",
+        controls: [
+            "WASD",
+        ],
+        experimental: true
+
+    },
    // 1v1-lol
 {
     name: "1v1 lol",
     id: "1v1-lol",
-    genre: "",
-    description: "",
+    genre: "Shooter",
+    description: "1v1.lol is an online building simulator & third person shooting game.",
     link: "https://fs9a.sumibi.org/games/1v1-lol/game/index.html",
-    img: ``,
-    publisher: "Unknown",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/1v1.jpeg`,
+    publisher: "JustPlay.LOL",
     controls: [
-        "",
+        "WASD",
     ]
 },
 
@@ -56,13 +71,13 @@ const data = [
 {
     name: "2048",
     id: "2048",
-    genre: "",
-    description: "",
+    genre: "Puzzel",
+    description: "In this game, you're trying to slide the number tiles on the grid to combine them to create a tile with the number 2048.",
     link: "https://fs9a.sumibi.org/games/2048/game/index.html",
     img: `https://cdnfs.sumibi.org/High%20Compressed/highcompress_2048.png`,
-    publisher: "Unknown",
+    publisher: "Solebon LLC",
     controls: [
-        "",
+        "WASD",
     ]
 },
 
@@ -70,13 +85,13 @@ const data = [
 {
     name: "Basket Bros",
     id: "Basketbros",
-    genre: "",
-    description: "",
+    genre: "Sports",
+    description: "BasketBros is a charming basketball game with a cool retro look that can be played with friends or against CPUs.",
     link: "https://fs9a.sumibi.org/games/Basketbros/game/index.html",
     img: `https://cdnfs.sumibi.org/High%20Compressed/highcompress_basketbros-io.png`,
-    publisher: "Unknown",
+    publisher: "Blue Wizard Digital",
     controls: [
-        "",
+        "WASD, G",
     ]
 },
 
@@ -84,13 +99,13 @@ const data = [
 {
     name: "Angry Birds",
     id: "ab",
-    genre: "",
-    description: "",
+    genre: "Puzzel",
+    description: "Angry Birds is a Finnish action, puzzle, and strategy based media franchise created by Rovio Entertainment, and owned by Sega.",
     link: "https://fs9a.sumibi.org/games/ab/game/index.html",
-    img: ``,
-    publisher: "Unknown",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/ab.png`,
+    publisher: "Rovio Entertainment",
     controls: [
-        "",
+        "Drag",
     ]
 },
 
@@ -98,11 +113,11 @@ const data = [
 {
     name: "Advanture Capitilist",
     id: "adcap",
-    genre: "",
-    description: "",
+    genre: "Indie",
+    description: "AdVenture Capitalist is a free-to-play incremental video game developed and published by Hyper Hippo Productions",
     link: "https://fs9a.sumibi.org/games/adcap/game/index.html",
-    img: ``,
-    publisher: "Unknown",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/ac.jpeg`,
+    publisher: "Hyper Hippo Entertainment",
     controls: [
         "",
     ]
@@ -112,11 +127,11 @@ const data = [
 {
     name: "A Dance of Fire and Ice",
     id: "adofai",
-    genre: "",
-    description: "",
+    genre: "Rhythm",
+    description: "A Dance of Fire and Ice is a strict rhythm game. Keep your focus as you guide two orbiting planets along a winding path without breaking their perfect equilibrium.",
     link: "https://fs9a.sumibi.org/games/adofai/game/index.html",
-    img: ``,
-    publisher: "Unknown",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/adofi.jpg`,
+    publisher: "7th Beat Games",
     controls: [
         "",
     ]
@@ -126,13 +141,13 @@ const data = [
 {
     name: "Aqua Park",
     id: "aquapark",
-    genre: "",
+    genre: "Miscellaneous",
     description: "",
     link: "https://fs9a.sumibi.org/games/aquapark/game/index.html",
-    img: ``,
-    publisher: "Unknown",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/ap.jpeg`,
+    publisher: "ZORG Games",
     controls: [
-        "",
+        "WASD",
     ]
 },
 
@@ -140,13 +155,13 @@ const data = [
 {
     name: "Awesome Tanks 2",
     id: "awesometanks2",
-    genre: "",
-    description: "",
+    genre: "Action",
+    description: "Awesome Tanks 2 is a tank game where you battle against other tanks in a top-down 2D arena.",
     link: "https://fs9a.sumibi.org/games/awesometanks2/game/index.html",
-    img: ``,
-    publisher: "Unknown",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/tanks2.jpg`,
+    publisher: "Alexander Gette",
     controls: [
-        "",
+        "WASD or arrow keys to move Left mouse button to shoot Number keys to switch weapon",
     ]
 },
 
@@ -155,24 +170,26 @@ const data = [
     name: "Backrooms",
     id: "backrooms",
     genre: "Horror",
-    description: "",
+    description: "Based on a creepypasta, the Backrooms brings a nostalgic feeling of being lost in endless piles of empty rooms with fluorescent lights at full hum-buzz.",
     link: "https://fs9a.sumibi.org/games/backrooms/game/index.html",
-    img: ``,
-    publisher: "Unknown",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/backrooms.png`,
+    publisher: "IEP Games",
     controls: [
-        "",
+        "WASD",
+        
     ]
+    
 },
 
 // bad-ice -2
 {
     name: "Bad ice 2",
     id: "bad-ice-2",
-    genre: "",
-    description: "",
+    genre: "Puzzel",
+    description: "Bad Ice-Cream is a fun 2-player puzzle game where you play as an Ice Cream. Choose a flavor, and add fruit to your ice cream",
     link: "https://fs9a.sumibi.org/games/bad-ice-2/game/index.html",
-    img: ``,
-    publisher: "Unknown",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/badice2.jpeg`,
+    publisher: "Nitrome",
     controls: [
         "",
     ]
@@ -182,11 +199,11 @@ const data = [
 {
     name: "Bad ice 3",
     id: "bad-ice-3",
-    genre: "",
-    description: "",
+    genre: "Puzzel",
+    description: "Bad Ice-Cream is a fun 2-player puzzle game where you play as an Ice Cream. Choose a flavor, and add fruit to your ice cream",
     link: "https://fs9a.sumibi.org/games/bad-ice-3/game/index.html",
-    img: ``,
-    publisher: "Unknown",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/badice3.jpg`,
+    publisher: "Nitrome",
     controls: [
         "",
     ]
@@ -196,11 +213,11 @@ const data = [
 {
     name: "Bad ice",
     id: "bad-ice",
-    genre: "",
-    description: "",
+    genre: "Puzzel",
+    description: "Bad Ice-Cream is a fun 2-player puzzle game where you play as an Ice Cream. Choose a flavor, and add fruit to your ice cream",
     link: "https://fs9a.sumibi.org/games/bad-ice/game/index.html",
-    img: ``,
-    publisher: "Unknown",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/badice.jpeg`,
+    publisher: "Nitrome",
     controls: [
         "",
     ]
@@ -211,12 +228,12 @@ const data = [
     name: "Basket Random",
     id: "basket-random",
     genre: "Sports",
-    description: "",
+    description: "Try to manage your two players in the form of sticks, rigid, and often uncontrollable, with the aim of scoring baskets.",
     link: "https://fs9a.sumibi.org/games/basket-random/game/index.html",
-    img: ``,
-    publisher: "Unknown",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/basketrandome.jpeg`,
+    publisher: "TwoPlayerGames",
     controls: [
-        "",
+        "W",
     ]
 },
 
@@ -225,10 +242,10 @@ const data = [
     name: "Basketball Stars",
     id: "basketball-stars",
     genre: "Sports",
-    description: "",
+    description: "Basketball Stars is a 2-player basketball game created by Madpuffers. Shoot b-ball with the likes of LeBron James, James Harden, and Stephen Curry in Basketball Stars!",
     link: "https://fs9a.sumibi.org/games/basketball-stars/game/index.html",
     img: `https://cdnfs.sumibi.org/High%20Compressed/highcompress_basketball_stars.png`,
-    publisher: "Unknown",
+    publisher: "Madpuffers",
     controls: [
         "",
     ]
@@ -239,12 +256,12 @@ const data = [
     name: "Baldi Basics",
     id: "bb",
     genre: "Horror",
-    description: "",
+    description: "Baldi's Basics Classic, is a 2018 parody horror game developed and published by Micah McGonigal",
     link: "https://fs9a.sumibi.org/games/bb/game/index.html",
-    img: ``,
-    publisher: "Unknown",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/bb.jpg`,
+    publisher: "Micah McGonigal",
     controls: [
-        "",
+        "WASD",
     ]
 },
 
@@ -255,10 +272,10 @@ const data = [
     genre: "Horror",
     description: "",
     link: "https://fs9a.sumibi.org/games/bf/game/index.html",
-    img: ``,
-    publisher: "Unknown",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/bf.jpg`,
+    publisher: "Donitz",
     controls: [
-        "",
+        "WASD",
     ]
 },
 
@@ -267,10 +284,10 @@ const data = [
     name: "Burrito Bison",
     id: "bison",
     genre: "Adventure",
-    description: "",
+    description: "https://cdn.jsdelivr.net/gh/james222323/fs@master/img/bitlife.webp",
     link: "https://fs9a.sumibi.org/games/bison/game/index.html",
     img: `https://cdnfs.sumibi.org/High%20Compressed/highcompress_burrito_bison.png`,
-    publisher: "Unknown",
+    publisher: "Juicy Beast",
     controls: [
         "Left Click",
     ]
@@ -281,12 +298,12 @@ const data = [
     name: "Bitlife",
     id: "bitlife",
     genre: "Simulation",
-    description: "",
+    description: "BitLife is a life simulation game developed by CandyWriter",
     link: "https://fs9a.sumibi.org/games/bitlife/game/index.html",
-    img: ``,
-    publisher: "Unknown",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/bitlife.webp`,
+    publisher: "Candy Writer",
     controls: [
-        "n",
+        "",
     ]
 },
 
@@ -294,13 +311,13 @@ const data = [
 {
     name: "Bloxorz",
     id: "bloxorz",
-    genre: "",
-    description: "",
+    genre: "Puzzel",
+    description: "Bloxorz is a puzzle flash game that was developed by Damien Clarke and released on August 22, 2007.",
     link: "https://fs9a.sumibi.org/games/bloxorz/game/index.html",
     img: `https://cdnfs.sumibi.org/High%20Compressed/highcompress_bloxorz.png`,
-    publisher: "Unknown",
+    publisher: "Damien Clarke",
     controls: [
-        "",
+        "WASD",
     ]
 },
 
@@ -308,13 +325,13 @@ const data = [
 {
     name: "Bacon May Die",
     id: "bmd",
-    genre: "",
-    description: "",
+    genre: "Action",
+    description: "Bacon May Die is a funny game which you can also play with two players on the same computer.",
     link: "https://fs9a.sumibi.org/games/bmd/game/index.html",
     img: `https://cdnfs.sumibi.org/High%20Compressed/highcompress_bacon_may_die.png`,
-    publisher: "Unknown",
+    publisher: "SnoutUp Games",
     controls: [
-        "",
+        "WASD",
     ]
 },
 
@@ -323,12 +340,12 @@ const data = [
     name: "Boxing Random",
     id: "boxing-random",
     genre: "Sports",
-    description: "",
+    description: "Boxing Random is a 2-players ragdoll physics boxing game where you can enjoy rounds with different challenges.",
     link: "https://fs9a.sumibi.org/games/boxing-random/game/index.html",
-    img: ``,
-    publisher: "Unknown",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/boxing.jpeg`,
+    publisher: "TwoPlayerGames",
     controls: [
-        "",
+        "W",
     ]
 },
 
@@ -337,12 +354,12 @@ const data = [
     name: "Boxing Physics 2",
     id: "boxing2",
     genre: "Sports",
-    description: "",
+    description: "This is the sequel of the hit game Boxing Physics! Knock your opponents down ferociously like a real Mike Tyson but be sure to save some energy for your defense!",
     link: "https://fs9a.sumibi.org/games/boxing2/game/index.html",
-    img: ``,
-    publisher: "Unknown",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/box2.jpg`,
+    publisher: "Cool Bears Game Studio",
     controls: [
-        "",
+        "W",
     ]
 },
 
@@ -350,11 +367,11 @@ const data = [
 {
     name: "Breakoid",
     id: "breakoid",
-    genre: "",
-    description: "",
+    genre: "Miscellaneous",
+    description: "Breakoid is a block-breaking game that is a new take on the classic Arkanoid game genre with amazing graphics, visuals",
     link: "https://fs9a.sumibi.org/games/breakoid/game/index.html",
-    img: ``,
-    publisher: "Unknown",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/break.jpg`,
+    publisher: "supernice.games",
     controls: [
         "",
     ]
@@ -364,11 +381,11 @@ const data = [
 {
     name: "Bloons TD 4",
     id: "btd4",
-    genre: "",
-    description: "",
+    genre: "Tower Defense",
+    description: "Bloons Tower Defense is a series of tower defense games under the Bloons series created and produced by Ninja Kiwi.",
     link: "https://fs9a.sumibi.org/games/btd4/game/index.html",
-    img: `https://cdnfs.sumibi.org/High%20Compressed/highcompress_bloons_td_4.png`,
-    publisher: "Unknown",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/td4.jpg`,
+    publisher: "Ninja Kiwi",
     controls: [
         "",
     ]
@@ -379,12 +396,12 @@ const data = [
     name: "Car Simulator",
     id: "car",
     genre: "Simulation",
-    description: "",
+    description: "3D Car Simulator is a very fun, fast-paced car driving simulator that allows you to test and show off your driving skills.",
     link: "https://fs9a.sumibi.org/games/car/game/index.html",
-    img: ``,
-    publisher: "Unknown",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/cars.jpg`,
+    publisher: "Faramel Games",
     controls: [
-        "",
+        "WASD",
     ]
 },
 
@@ -392,11 +409,11 @@ const data = [
 {
     name: "Cell Machine",
     id: "cell",
-    genre: "",
-    description: "",
+    genre: "Miscellaneous",
+    description: "Each cell on its own has a simple function, like moving or spawning other cells. But when combined, more interesting behavior emerges...",
     link: "https://fs9a.sumibi.org/games/cell/game/index.html",
-    img: ``,
-    publisher: "Unknown",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/cell.jpg`,
+    publisher: "Sam Hogan",
     controls: [
         "",
     ]
@@ -406,13 +423,13 @@ const data = [
 {
     name: "Cluster Rush",
     id: "cluster-rush",
-    genre: "",
-    description: "",
+    genre: "Skill",
+    description: "Jump from truck to truck, slide and hang on to avoid falling in the Cluster Rush, a platformer / skill game.",
     link: "https://fs9a.sumibi.org/games/cluster-rush/game/index.html",
-    img: ``,
-    publisher: "Unknown",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/rush.jpg`,
+    publisher: "Landfall",
     controls: [
-        "",
+        "WASD",
     ]
 },
 
@@ -421,12 +438,12 @@ const data = [
     name: "Cookie Clicker",
     id: "cookie",
     genre: "Clicker",
-    description: "",
+    description: "Cookie Clicker is a 2013 incremental game created by French programmer Julien Orteil Thiennot.",
     link: "https://fs9a.sumibi.org/games/cookie/game/index.html",
-    img: ``,
-    publisher: "Unknown",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/cookcie.png`,
+    publisher: "Orteil",
     controls: [
-        "Left Clikc",
+        "Left Click",
     ]
 },
 
@@ -434,13 +451,13 @@ const data = [
 {
     name: "Crossy Road",
     id: "crossy",
-    genre: "",
-    description: "",
+    genre: "Skill",
+    description: "Crossy Road is an arcade video game released on 20 November 2014",
     link: "https://fs9a.sumibi.org/games/crossy/game/index.html",
-    img: ``,
-    publisher: "Unknown",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/crossy.jpeg`,
+    publisher: "Hipster Whale",
     controls: [
-        "",
+        "WASD",
     ]
 },
 
@@ -448,10 +465,10 @@ const data = [
 {
     name: "Cubefield",
     id: "cube",
-    genre: "",
-    description: "",
+    genre: "Skill",
+    description: "Cubefield is a fast-paced endless running game that tests your ability to dodge obstacles at high speed.",
     link: "https://fs9a.sumibi.org/games/cube/game/index.html",
-    img: ``,
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/cube.jpg`,
     publisher: "Unknown",
     controls: [
         "Left, Right Arows",
@@ -463,13 +480,13 @@ const data = [
 {
     name: "Deathrun 3D",
     id: "deathrun",
-    genre: "",
-    description: "",
+    genre: "Skill",
+    description: "Death Run 3D is an extremely fast game for true skillers only",
     link: "https://fs9a.sumibi.org/games/deathrun/game/index.html",
-    img: ``,
-    publisher: "Unknown",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/death.jpeg`,
+    publisher: "Filippo Ceffa",
     controls: [
-        "",
+        "WASD",
     ]
 },
 
@@ -477,13 +494,13 @@ const data = [
 {
     name: "Doodle Jump",
     id: "doodle",
-    genre: "",
-    description: "",
+    genre: "Miscellaneous",
+    description: "Doodle Jump is a 2009 platformer video game developed and published by Igor and Marko Pusenjak, who make up the Croatian studio Lima Sky.",
     link: "https://fs9a.sumibi.org/games/doodle/game/index.html",
-    img: ``,
-    publisher: "Unknown",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/OIP%20(3).jpeg`,
+    publisher: "Lima Sky",
     controls: [
-        "",
+        "WASD",
     ]
 },
 
@@ -491,13 +508,13 @@ const data = [
 {
     name: "Drift Hunters",
     id: "drift",
-    genre: "",
-    description: "",
+    genre: "Drving",
+    description: "Drift Hunters is an awesome 3D car driving game in which you score points by drifting various cars.",
     link: "https://fs9a.sumibi.org/games/drift/game/index.html",
-    img: ``,
-    publisher: "Unknown",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/drift.jpg`,
+    publisher: "Ilya Kaminetsky",
     controls: [
-        "",
+        "WASD",
     ]
 },
 
@@ -505,13 +522,13 @@ const data = [
 {
     name: "Drive Mad",
     id: "drive",
-    genre: "",
-    description: "",
+    genre: "Driving",
+    description: "Drive Mad is a car game where you drive on a track filled with obstacles. Your aim is to reach the finish line in one piece.",
     link: "https://fs9a.sumibi.org/games/drive/game/index.html",
-    img: ``,
-    publisher: "Unknown",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/drive.jpg`,
+    publisher: "Martin Magni",
     controls: [
-        "",
+        "WASD",
     ]
 },
 
@@ -519,13 +536,13 @@ const data = [
 {
     name: "Fireboy & Watergirl",
     id: "fbwg",
-    genre: "",
-    description: "",
+    genre: "Puzzel",
+    description: "Fireboy and Watergirl is a popular cooperative platformer game where you control two elemental characters to collect diamonds and escape the forest temple.",
     link: "https://fs9a.sumibi.org/games/fbwg/game/index.html",
-    img: ``,
-    publisher: "Unknown",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/fbwg.jpeg`,
+    publisher: "Oslo Albet",
     controls: [
-        "",
+        "WASD",
     ]
 },
 
@@ -533,13 +550,13 @@ const data = [
 {
     name: "Flappy Bird",
     id: "flappy",
-    genre: "",
-    description: "",
+    genre: "Skill",
+    description: "Flappy Bird was developed by Dong Nguyen, a Vietnamese video game artist and programmer, under his game development company .Gears",
     link: "https://fs9a.sumibi.org/games/flappy/game/index.html",
-    img: ``,
-    publisher: "Unknown",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/falppy.jpg`,
+    publisher: "DotGEARS",
     controls: [
-        "",
+        "Space",
     ]
 },
 
@@ -676,7 +693,7 @@ const data = [
     id: "slope",
     genre: "",
     description: "",
-    link: "https://fs9a.sumibi.org/games/slope/game/index.html",
+    link: "https://fs9a.sumibi.org/games/slope/",
     img: ``,
     publisher: "Unknown",
     controls: [
