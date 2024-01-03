@@ -14,8 +14,7 @@
 //⠀⠀⠀⠀⠉⠙⠛⠛⠋⠛⠿⠛⢶⣶⣾⡿⠁⠀⠈⢦⣤⣤⣼⣿⣄⣀⣠⣿⠹⣄⣀⣾⡿⢧⣀⣀⣼⣿⠰⣤⣤⣤⣴⣶⣶⣶⣿⡿⠃⠉⠙⠛⠛⠛⠋⠁
 
 
-let lastUpdate = "1/8/2024 (v7.0.3) BETA"
-let cdnUrl = "https://sgs-game-cdn.pages.dev"
+let lastUpdate = "1/8/2024 (v7.0)"
 let gitcdnUrl = "https://cdnfs.sumibi.org"
 //CHANGE IMAGES ON HOME PAGE TOO
 const data = [
