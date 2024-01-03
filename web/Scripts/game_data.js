@@ -284,7 +284,7 @@ const data = [
     name: "Burrito Bison",
     id: "bison",
     genre: "Adventure",
-    description: "https://cdn.jsdelivr.net/gh/james222323/fs@master/img/bitlife.webp",
+    description: "In this game you must launch Burrito Bison as far as you can, bouncing, flying, and soaring through the skies to fend off the invasion of gummies",
     link: "https://fs9a.sumibi.org/games/bison/game/index.html",
     img: `https://cdnfs.sumibi.org/High%20Compressed/highcompress_burrito_bison.png`,
     publisher: "Juicy Beast",
