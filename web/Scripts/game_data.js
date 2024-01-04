@@ -507,7 +507,7 @@ const data = [
 {
     name: "Drift Hunters",
     id: "drift",
-    genre: "Drving",
+    genre: "Driving",
     description: "Drift Hunters is an awesome 3D car driving game in which you score points by drifting various cars.",
     link: "https://fs9a.sumibi.org/games/drift/game/index.html",
     img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/drift.jpg`,
