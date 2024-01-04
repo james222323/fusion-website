@@ -1,1 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title> </title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            height: 100%;
+        }
 
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 70px; /* Change the height of the border as needed */
+            background-color: #0C0D14; /* Change the border color as needed */
+            pointer-events: none; /* Ensures that the border doesn't interfere with content */
+        }
+
+        iframe {
+            border: 0;
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <iframe 
+        src="https://fs3a.sumibi.org/rbx.html" 
+        width="600" 
+        height="400" 
+    ></iframe>
+
+</body>
+</html>
