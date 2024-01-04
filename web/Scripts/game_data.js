@@ -14,7 +14,7 @@
 //⠀⠀⠀⠀⠉⠙⠛⠛⠋⠛⠿⠛⢶⣶⣾⡿⠁⠀⠈⢦⣤⣤⣼⣿⣄⣀⣠⣿⠹⣄⣀⣾⡿⢧⣀⣀⣼⣿⠰⣤⣤⣤⣴⣶⣶⣶⣿⡿⠃⠉⠙⠛⠛⠛⠋⠁
 
 
-let lastUpdate = "1/8/2024 (v7.0)"
+let lastUpdate = "1/8/2024 (v7.0.0)"
 let gitcdnUrl = "https://cdnfs.sumibi.org"
 //CHANGE IMAGES ON HOME PAGE TOO
 const data = [
@@ -112,7 +112,7 @@ const data = [
 {
     name: "Advanture Capitilist",
     id: "adcap",
-    genre: "Indie",
+    genre: "Idle",
     description: "AdVenture Capitalist is a free-to-play incremental video game developed and published by Hyper Hippo Productions",
     link: "https://fs9a.sumibi.org/games/adcap/game/index.html",
     img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/ac.jpeg`,
@@ -563,13 +563,13 @@ const data = [
 {
     name: "Fruit Ninja",
     id: "fruit",
-    genre: "",
-    description: "",
+    genre: "Skill",
+    description: "Fruit Ninja is a video game developed by Halfbrick originally released on August 12, 2010. In the game, the player must slice fruit that is thrown into the air",
     link: "https://fs9a.sumibi.org/games/fruit/game/index.html",
-    img: ``,
-    publisher: "Unknown",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/fninja.jpeg`,
+    publisher: "Halfbrick",
     controls: [
-        "",
+        "Swipe",
     ]
 },
 
@@ -577,13 +577,13 @@ const data = [
 {
     name: "Geometry Dash",
     id: "gd",
-    genre: "",
-    description: "",
+    genre: "Skill",
+    description: "Geometry Dash is a side-scrolling music platforming game series developed by Robert Topala.",
     link: "https://fs9a.sumibi.org/games/gd/game/index.html",
-    img: ``,
-    publisher: "Unknown",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/geo.jpg`,
+    publisher: "RobTop",
     controls: [
-        "",
+        "Space",
     ]
 },
 
@@ -592,12 +592,12 @@ const data = [
     name: "Grand Theft Auto",
     id: "gta",
     genre: "Retro",
-    description: "",
+    description: "Grand Theft Auto is an action-adventure video game developed by DMA Design and published by BMG Interactive.",
     link: "https://fs9a.sumibi.org/games/gta/game/index.html",
-    img: ``,
-    publisher: "Unknown",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/gta.jpg`,
+    publisher: "Rockstar Games",
     controls: [
-        "",
+        "A: z  B: x L: q R: e Select: v Start: enter UP: up arrow DOWN: Down arrow LEFT: left arrow RIGHT: Right arrow",
     ]
 },
 
@@ -605,11 +605,11 @@ const data = [
 {
     name: "Idle Breakout",
     id: "ib",
-    genre: "",
-    description: "",
+    genre: "Idle",
+    description: "Idle Breakout is a brick breaking idle game where you must unlock and upgrades different types of balls which will destroy the bricks on your behalf!",
     link: "https://fs9a.sumibi.org/games/ib/game/index.html",
-    img: ``,
-    publisher: "Unknown",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/ib.jpeg`,
+    publisher: "Kodiqi",
     controls: [
         "",
     ]
@@ -620,12 +620,12 @@ const data = [
     name: "Mario Kart",
     id: "kart",
     genre: "Retro",
-    description: "",
+    description: "Mario Kart 64 is a kart racing video game developed and published by Nintendo for the Nintendo 64.",
     link: "https://fs9a.sumibi.org/games/kart/game/index.html",
-    img: ``,
-    publisher: "Unknown",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/kart.jpg`,
+    publisher: "Nintendo",
     controls: [
-        "",
+        "A: z  B: x L: q R: e Select: v Start: enter UP: up arrow DOWN: Down arrow LEFT: left arrow RIGHT: Right arrow",
     ]
 },
 
@@ -634,12 +634,12 @@ const data = [
     name: "Mortal Kombat 4",
     id: "mk4",
     genre: "Retro",
-    description: "",
+    description: "Mortal Kombat 4 is a 1997 fighting game, the fourth main installment in the Mortal Kombat franchise, and a sequel to 1995's Mortal Kombat 3.",
     link: "https://fs9a.sumibi.org/games/mk4/game/index.html",
-    img: ``,
-    publisher: "Unknown",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/mk.jpg`,
+    publisher: "Midway Games",
     controls: [
-        "",
+        "A: z  B: x L: q R: e Select: v Start: enter UP: up arrow DOWN: Down arrow LEFT: left arrow RIGHT: Right arrow",
     ]
 },
 
@@ -647,13 +647,13 @@ const data = [
 {
     name: "Monkey Mart",
     id: "monkey-mart",
-    genre: "",
-    description: "",
+    genre: "Idle",
+    description: "Monkey Mart is an idle/management game where you control a cute monkey character who is in charge of a supermarket. Plant fruits, harvest produce, move around from station to station to fill the stands with various food items.",
     link: "https://fs9a.sumibi.org/games/monkey-mart/game/index.html",
-    img: ``,
-    publisher: "Unknown",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/mart.png`,
+    publisher: "TinyDobbins",
     controls: [
-        "",
+        "WASD",
     ]
 },
 
@@ -661,13 +661,13 @@ const data = [
 {
     name: "Retro Bowl",
     id: "retro-bowl",
-    genre: "",
-    description: "",
+    genre: "Sports",
+    description: "Retro Bowl is an American style football game created by New Star Games.",
     link: "https://fs9a.sumibi.org/games/retro-bowl/game/index.html",
-    img: ``,
-    publisher: "Unknown",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/retro.jpg`,
+    publisher: "New Star Games",
     controls: [
-        "",
+        "Navigate - Mouse / Trackpad Select - LMB",
     ]
 },
 
@@ -676,13 +676,13 @@ const data = [
 {
     name: "Funny Shooter 2",
     id: "shooter2",
-    genre: "",
-    description: "",
+    genre: "Shooter",
+    description: "Funny Shooter 2 is a fun FPS game where you fight hordes of absurd enemies",
     link: "https://fs9a.sumibi.org/games/shooter2/game/index.html",
-    img: ``,
-    publisher: "Unknown",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/funny.jpeg`,
+    publisher: "GoGoMan",
     controls: [
-        "",
+        "WASD",
     ]
 },
 
@@ -690,13 +690,13 @@ const data = [
 {
     name: "Slope",
     id: "slope",
-    genre: "",
-    description: "",
+    genre: "Skill",
+    description: "Drive a ball in the 3D running game in Slope Game. Easy to controls, high speed, and addictive gameplay.",
     link: "https://fs9a.sumibi.org/games/slope/",
-    img: ``,
-    publisher: "Unknown",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/slope.jpeg`,
+    publisher: "Rob Kay",
     controls: [
-        "",
+        "WASD",
     ]
 },
 
@@ -704,13 +704,13 @@ const data = [
 {
     name: "Smash Remix",
     id: "smash",
-    genre: "",
-    description: "",
+    genre: "Retro",
+    description: "Super Smash Bros. is a crossover platform fighting game series published by Nintendo.",
     link: "https://fs9a.sumibi.org/games/smash/game/index.html",
-    img: ``,
-    publisher: "Unknown",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/smash.jpg`,
+    publisher: "Nintendo",
     controls: [
-        "",
+        "A: z  B: x L: q R: e Select: v Start: enter UP: up arrow DOWN: Down arrow LEFT: left arrow RIGHT: Right arrow",
     ]
 },
 
