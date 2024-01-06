@@ -1310,6 +1310,7 @@ if(window.location.pathname.endsWith("games.html") || window.location.pathname.e
 
                     document.getElementById("cbfavorite").onclick = function(){ unfavorite(data[i].id) }
                     document.getElementById("cbfavoriteicon").className = "bx bxs-heart cbicon"
+                    document.getElementById("cbfavoriteicon").style.color = '#fb0202';
                 } else {
                     document.getElementById("favoriteOption").onclick = function(){ favorite(data[i].id) }
                     document.getElementById("favStarOption").className = "bx bx-heart icon"
