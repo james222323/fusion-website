@@ -31,6 +31,7 @@ const data = [
             "WASD",
         ],
         experimental: true
+        
 
         // broken: true,
          //note: "Game won't load (WebSocket connection to wss failed)"
@@ -507,7 +508,7 @@ const data = [
 {
     name: "Drift Hunters",
     id: "drift",
-    genre: "Driving",
+    genre: "Drving",
     description: "Drift Hunters is an awesome 3D car driving game in which you score points by drifting various cars.",
     link: "https://fs9a.sumibi.org/games/drift/game/index.html",
     img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/drift.jpg`,
@@ -839,7 +840,7 @@ if(window.location.pathname.endsWith("games.html") || window.location.pathname.e
                 game_click.appendChild(broken_icon)
             } else {
               var fav_icon = document.createElement("i")
-              fav_icon.className = "bx bx-star icon"
+              fav_icon.className = "bx bx-heart icon"
               fav_icon.id = "fav_icon"
               if(localStorage.getItem("mode") === "Light" && localStorage.getItem("gameIcon") !== "false"){
                   fav_icon.style.color = "#ccc"
@@ -847,7 +848,8 @@ if(window.location.pathname.endsWith("games.html") || window.location.pathname.e
               if(localStorage.getItem("gameIcon") === "false") fav_icon.style.fontSize = "20px";
               if(localStorage.getItem("favorites") && localStorage.getItem("favorites").includes(game.id)){
                   fav_icon.onclick = function(){ unfavorite(game.id) }
-                  fav_icon.className = "bx bxs-star icon"
+                  fav_icon.className = "bx bxs-heart icon"
+                  fav_icon.style.color = '#fb0202';
               } else {
                   fav_icon.onclick = function(){ favorite(game.id) }
               }
@@ -1093,15 +1095,16 @@ if(window.location.pathname.endsWith("games.html") || window.location.pathname.e
                 localStorage.setItem("favorites", favoritesList)
 
                 document.getElementById("favoriteOption").onclick = function(){ unfavorite(data[i].id) }
-                document.getElementById("favStarOption").className = "bx bxs-star icon"
+                document.getElementById("favStarOption").className = "bx bxs-heart icon"
                 document.getElementById("favoriteTextOption").innerText = "Unfavorite"
 
                 document.getElementById("favoriteOption2").onclick = function(){ unfavorite(data[i].id) }
-                document.getElementById("favStarOption2").className = "bx bxs-star icon"
+                document.getElementById("favStarOption2").className = "bx bxs-heart icon"
                 document.getElementById("favoriteTextOption2").innerText = "Unfavorite"
 
                 document.getElementById("cbfavorite").onclick = function(){ unfavorite(data[i].id) }
-                document.getElementById("cbfavoriteicon").className = "bx bxs-star cbicon"
+                document.getElementById("cbfavoriteicon").className = "bx bxs-heart cbicon"
+                document.getElementById("cbfavoriteicon").style.color = '#fb0202';
 
                 removeGames();
                 loadGames();
@@ -1126,15 +1129,15 @@ if(window.location.pathname.endsWith("games.html") || window.location.pathname.e
               }
 
               document.getElementById("favoriteOption").onclick = function(){ favorite(data[i].id) }
-              document.getElementById("favStarOption").className = "bx bx-star icon"
+              document.getElementById("favStarOption").className = "bx bx-heart icon"
               document.getElementById("favoriteTextOption").innerText = "Favorite"
 
               document.getElementById("favoriteOption2").onclick = function(){ favorite(data[i].id) }
-              document.getElementById("favStarOption2").className = "bx bx-star icon"
+              document.getElementById("favStarOption2").className = "bx bx-heart icon"
               document.getElementById("favoriteTextOption2").innerText = "Favorite"
 
               document.getElementById("cbfavorite").onclick = function(){ favorite(data[i].id) }
-              document.getElementById("cbfavoriteicon").className = "bx bx-star cbicon"
+              document.getElementById("cbfavoriteicon").className = "bx bx-heart cbicon"
 
               removeGames();
               loadGames();
@@ -1175,11 +1178,11 @@ if(window.location.pathname.endsWith("games.html") || window.location.pathname.e
 
                 if(localStorage.getItem("favorites") && localStorage.getItem("favorites").includes(data[i].id)){
                     document.getElemeFntById("favoriteOption2").onclick = function(){ unfavorite(data[i].id) }
-                    document.getElementById("favStarOption2").className = "bx bxs-star icon"
+                    document.getElementById("favStarOption2").className = "bx bxs-heart icon"
                     document.getElementById("favoriteTextOption2").innerText = "Unfavorite"
                 } else {
                     document.getElementById("favoriteOption2").onclick = function(){ favorite(data[i].id) }
-                    document.getElementById("favStarOption2").className = "bx bx-star icon"
+                    document.getElementById("favStarOption2").className = "bx bx-heart icon"
                     document.getElementById("favoriteTextOption2").innerText = "Favorite"
                 }
 
@@ -1302,18 +1305,18 @@ if(window.location.pathname.endsWith("games.html") || window.location.pathname.e
                 document.getElementById("controlsText").innerText = data[i].controls.join("\n")
                 if(localStorage.getItem("favorites") && localStorage.getItem("favorites").includes(data[i].id)){
                     document.getElementById("favoriteOption").onclick = function(){ unfavorite(data[i].id) }
-                    document.getElementById("favStarOption").className = "bx bxs-star icon"
+                    document.getElementById("favStarOption").className = "bx bxs-heart icon"
                     document.getElementById("favoriteTextOption").innerText = "Unfavorite"
 
                     document.getElementById("cbfavorite").onclick = function(){ unfavorite(data[i].id) }
                     document.getElementById("cbfavoriteicon").className = "bx bxs-star cbicon"
                 } else {
                     document.getElementById("favoriteOption").onclick = function(){ favorite(data[i].id) }
-                    document.getElementById("favStarOption").className = "bx bx-star icon"
+                    document.getElementById("favStarOption").className = "bx bx-heart icon"
                     document.getElementById("favoriteTextOption").innerText = "Favorite"
 
                     document.getElementById("cbfavorite").onclick = function(){ favorite(data[i].id) }
-                    document.getElementById("cbfavoriteicon").className = "bx bx-star cbicon"
+                    document.getElementById("cbfavoriteicon").className = "bx bx-heart cbicon"
                 }
 
                 if(document.getElementById("gameOptions").style.display = "block") document.getElementById("gameOptions").style.display = "none"
