@@ -1309,7 +1309,7 @@ if(window.location.pathname.endsWith("games.html") || window.location.pathname.e
                     document.getElementById("favoriteTextOption").innerText = "Unfavorite"
 
                     document.getElementById("cbfavorite").onclick = function(){ unfavorite(data[i].id) }
-                    document.getElementById("cbfavoriteicon").className = "bx bxs-star cbicon"
+                    document.getElementById("cbfavoriteicon").className = "bx bxs-heart cbicon"
                 } else {
                     document.getElementById("favoriteOption").onclick = function(){ favorite(data[i].id) }
                     document.getElementById("favStarOption").className = "bx bx-heart icon"
