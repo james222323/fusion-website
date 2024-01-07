@@ -698,7 +698,8 @@ const data = [
     publisher: "Rob Kay",
     controls: [
         "WASD",
-    ]
+    ],
+    updated: true
 },
 
 // smash
