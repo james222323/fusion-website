@@ -693,7 +693,7 @@ const data = [
     id: "slope",
     genre: "Skill",
     description: "Drive a ball in the 3D running game in Slope Game. Easy to controls, high speed, and addictive gameplay.",
-    link: "https://fs9a.sumibi.org/games/slope/",
+    link: "https://fs9a.sumibi.org/games/slope/game/index.html",
     img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/slope.jpeg`,
     publisher: "Rob Kay",
     controls: [
