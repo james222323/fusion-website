@@ -23,14 +23,15 @@ const data = [
         id: "rbx",
         genre: "Adventure",
         description: "Roblox is an online game platform and game creation system developed by Roblox Corporation that allows users to program games and play games created by other users.",
-        link: `https://fusion.sumibi.org/web/fs-123we3gnb/rbx.html`,
+        link: `https://fusion.sumibi.org/web/fs-123we3gnb/rx.html`,
         img: `${gitcdnUrl}/High Compressed/rbx.jpg`,
         file_based: true,
         publisher: "Roblox Corporation",
         controls: [
             "WASD",
         ],
-        experimental: true
+        broken: true,
+        note: "Game won't load (WebSocket connection to wss failed)"
         
 
         // broken: true,
@@ -43,14 +44,15 @@ const data = [
         id: "md24",
         genre: "Sports",
         description: "Madden NFL 24 is an American football video game developed by EA Tiburon and published by EA Sports.",
-        link: `https://fusion.sumibi.org/web/fs-123we3gnb/mad24.html`,
+        link: `https://fusion.sumibi.org/web/fs-123we3gnb/md24.html`,
         img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/mad24.jpg`,
         file_based: true,
         publisher: "EA Sports",
         controls: [
             "WASD",
         ],
-        experimental: true
+        broken: true,
+        note: "Game won't load (WebSocket connection to wss failed)"
 
     },
    // 1v1-lol
