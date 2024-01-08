@@ -231,7 +231,7 @@ const data = [
     description: "Try to manage your two players in the form of sticks, rigid, and often uncontrollable, with the aim of scoring baskets.",
     link: "https://fs9a.sumibi.org/games/basket-random/game/index.html",
     img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/basketrandome.jpeg`,
-    publisher: "TwoPlayerGames",
+    publisher: "RHM Interactive",
     controls: [
         "W",
     ]
@@ -343,7 +343,7 @@ const data = [
     description: "Boxing Random is a 2-players ragdoll physics boxing game where you can enjoy rounds with different challenges.",
     link: "https://fs9a.sumibi.org/games/boxing-random/game/index.html",
     img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/boxing.jpeg`,
-    publisher: "TwoPlayerGames",
+    publisher: "RHM Interactive",
     controls: [
         "W",
     ]
@@ -508,7 +508,7 @@ const data = [
 {
     name: "Drift Hunters",
     id: "drift",
-    genre: "Drving",
+    genre: "Driving",
     description: "Drift Hunters is an awesome 3D car driving game in which you score points by drifting various cars.",
     link: "https://fs9a.sumibi.org/games/drift/game/index.html",
     img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/drift.jpg`,
@@ -713,8 +713,489 @@ const data = [
     publisher: "Nintendo",
     controls: [
         "A: z  B: x L: q R: e Select: v Start: enter UP: up arrow DOWN: Down arrow LEFT: left arrow RIGHT: Right arrow",
+    ],
+},
+// getaway-shootout
+{
+    name: "Getaway Shootout",
+    id: "getaway-shootout",
+    genre: "2 Player",
+    description: "Getaway Shootout is made by New Eich Games, who has also made some other challenging 2 player physics-based games: Rooftop Snipers.",
+    link: "https://fs9a.sumibi.org/games/getaway-shootout/game/index.html",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/shootout.jpg`,
+    publisher: "Eich Games",
+    controls: [
+        "",
     ]
 },
+
+// happywheels
+{
+    name: "Happy Wheels",
+    id: "happywheels",
+    genre: "Miscellaneous",
+    description: "Happy Wheels is a side-scrolling ragdoll physics-based platform browser game developed and published by Fancy Force.",
+    link: "https://fs9a.sumibi.org/games/happywheels/game/index.html",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/happy.jpeg`,
+    publisher: "Fancy Force",
+    controls: [
+        "",
+    ]
+},
+
+// hotdogeria
+{
+    name: "Papa’s Hot Doggeria",
+    id: "hotdogeria",
+    genre: "Simulation",
+    description: "Papa’s Hot Doggeria is a restaurant game where you serve hotdogs to spectators at a baseball game.",
+    link: "https://fs9a.sumibi.org/games/hotdogeria/game/index.html",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/hotdog.png`,
+    publisher: "Flipline Studios",
+    controls: [
+        "",
+    ]
+},
+
+// jetpack
+{
+    name: "Jetpack Joyride",
+    id: "jetpack",
+    genre: "Skill",
+    description: "Jetpack Joyride is a 2011 side-scrolling endless runner action video game created by Halfbrick Studios.",
+    link: "https://fs9a.sumibi.org/games/jetpack/game/index.html",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/jetpack.jpg`,
+    publisher: "Halfbrick Studios",
+    controls: [
+        "",
+    ]
+},
+
+// justfall
+{
+    name: "Just Fall",
+    id: "justfall",
+    genre: "Skill",
+    description: "JustFall.LOL is a fun arcade game to become the last survivor in a fragile hexagonal platform.",
+    link: "https://fs9a.sumibi.org/games/justfall/game/index.html",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/just.png`,
+    publisher: "Lior Alterman",
+    controls: [
+        "",
+    ]
+},
+
+// knifehit
+{
+    name: "Knife Hit",
+    id: "knifehit",
+    genre: "Skill",
+    description: "Knife Hit is a fun game of reflexes and skills in which you must show off your knife throwing skills! During each challenge you must throw all of your knives into a rotating board",
+    link: "https://fs9a.sumibi.org/games/knifehit/game/index.html",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/knife.jpg`,
+    publisher: " Ketchapp",
+    controls: [
+        "",
+    ]
+},
+
+
+
+// mc
+{
+    name: "Minecraft",
+    id: "mc",
+    genre: "Infinite",
+    description: "Minecraft is a sandbox game developed by Mojang Studios and originally released in 2009.",
+    link: "https://fs9a.sumibi.org/games/mc/game/index.html",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/mc.jpg`,
+    publisher: "Mojang Studios",
+    controls: [
+        "",
+    ]
+},
+
+// merge
+{
+    name: "Merge Round Racers",
+    id: "merge",
+    genre: "Merging",
+    description: "Merge Round Racers is a car-merging game created by TinyDobbins, where the user has to generate coins, buy cars, and merge them to get an even better vehicle.",
+    link: "https://fs9a.sumibi.org/games/merge/game/index.html",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/merge.webp`,
+    publisher: "TinyDobbins",
+    controls: [
+        "",
+    ]
+},
+
+
+// motox3m
+{
+    name: "Moto X3M",
+    id: "motox3m",
+    genre: "Driving",
+    description: "The goal of this game is to race your motorbike through levels with massive, moving obstacles that you have to jump over or avoid. You can flip in the air to decrease your final time and earn a perfect score.",
+    link: "https://fs9a.sumibi.org/games/motox3m/game/index.html",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/moto.jpg`,
+    publisher: "MadPuffers",
+    controls: [
+        "",
+    ],
+    new: true
+},
+
+// motox3mpoolparty
+{
+    name: "Moto X3M Pool Party",
+    id: "motox3mpoolparty",
+    genre: "Driving",
+    description: "The goal of this game is to race your motorbike through levels with massive, moving obstacles that you have to jump over or avoid. You can flip in the air to decrease your final time and earn a perfect score.",
+    link: "https://fs9a.sumibi.org/games/motox3mpoolparty/game/index.html",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/moto2.jpeg`,
+    publisher: "MadPuffers",
+    controls: [
+        "",
+    ],
+    new: true
+},
+
+// motox3mspookyland
+{
+    name: "MotoX3M Spooky",
+    id: "motox3mspookyland",
+    genre: "Driving",
+    description: "The goal of this game is to race your motorbike through levels with massive, moving obstacles that you have to jump over or avoid. You can flip in the air to decrease your final time and earn a perfect score.",
+    link: "https://fs9a.sumibi.org/games/motox3mspookyland/game/index.html",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/moto3.webp`,
+    publisher: "MadPuffers",
+    controls: [
+        "",
+    ],
+    new: true
+},
+
+// motox3mwinter
+{
+    name: "Moto X3M Winter",
+    id: "motox3mwinter",
+    genre: "Driving",
+    description: "The goal of this game is to race your motorbike through levels with massive, moving obstacles that you have to jump over or avoid. You can flip in the air to decrease your final time and earn a perfect score.",
+    link: "https://fs9a.sumibi.org/games/motox3mwinter/game/index.html",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/moto4.jpg`,
+    publisher: "MadPuffers",
+    controls: [
+        "",
+    ],
+    new: true
+},
+
+// ovo
+{
+    name: "OvO",
+    id: "ovo",
+    genre: "Skill",
+    description: "OvO is a fast-paced platformer where you use precise parkour and free running skills to complete each level.",
+    link: "https://fs9a.sumibi.org/games/ovo/game/index.html",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/ovo.jpeg`,
+    publisher: "Dedra Games",
+    controls: [
+        "",
+    ]
+},
+
+// papasb
+{
+    name: "Papa’s Pizzeria",
+    id: "papasp",
+    genre: "Simulation",
+    description: "Papa’s Pizzeria gently introduces you to the art of customer service and making steamy delicious pizzas fresh from the oven.",
+    link: "https://fs9a.sumibi.org/games/papasp/game/index.html",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/papasp.jpg`,
+    publisher: "Flipline Studios",
+    controls: [
+        "",
+    ]
+},
+
+// papasp
+{
+    name: "Papa’s Burgeria",
+    id: "papasb",
+    genre: "Simulation",
+    description: "Papa’s Burgeria guides you through the basics of flipping burgers and making a buck.",
+    link: "https://fs9a.sumibi.org/games/papasb/game/index.html",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/papasb.jpg`,
+    publisher: "Flipline Studios",
+    controls: [
+        "",
+    ]
+},
+
+// paperio
+{
+    name: "Paper.io 2",
+    id: "paperio",
+    genre: "Miscellaneous",
+    description: "Paper.io 2 is a real-time multiplayer .io game where you have to capture as much territory as possible by painting it.",
+    link: "https://fs9a.sumibi.org/games/paperio/game/index.html",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/papper.jpeg`,
+    publisher: "Voodoo",
+    controls: [
+        "",
+    ]
+},
+
+// plants
+{
+    name: "Plants vs. Zombies",
+    id: "plants",
+    genre: "Skill",
+    description: "Plants vs. Zombies is a video game franchise developed by PopCap Games, a subsidiary of Electronic Arts. ",
+    link: "https://fs9a.sumibi.org/games/plants/game/index.html",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/plant.jpeg`,
+    publisher: "PopCap Games",
+    controls: [
+        "",
+    ]
+},
+
+// retro-bowl
+
+
+// rocket
+{
+    name: "Rocket Soccer Derby",
+    id: "rocket",
+    genre: "Sports",
+    description: "Rocket Soccer Derby is a frantic mixture of a soccer game, a car game and a simulation game in all-in-one. You have to drive around a football pitch and try to score goals against your opponent. ",
+    link: "https://fs9a.sumibi.org/games/rocket/game/index.html",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/rocket.png`,
+    publisher: "No Pressure Studios",
+    controls: [
+        "",
+    ]
+},
+
+{
+    name: "Rooftop Snipers",
+    id: "rooftop",
+    genre: "2 Player",
+    description: "Rooftop Snipers is a chaotic two-button sniper game where you can only shoot and jump. You can play the game with a friend or against the computer.",
+    link: "https://fs9a.sumibi.org/games/rooftop/game/index.html",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/rooftop.webp`,
+    publisher: "New Eich Games",
+    controls: [
+        "",
+    ]
+},
+
+{
+    name: "Run",
+    id: "run",
+    genre: "Infinite",
+    description: "Run is an incredibly addicting, endless runner-type action/platforming game in which you play as a little grey alien. The little alien is trespassing in an architecturally challenged area that is floating in space.",
+    link: "https://fs9a.sumibi.org/games/run/game/index.html",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/run.png`,
+    publisher: "Joseph Cloutier",
+    controls: [
+        "",
+    ]
+},
+{
+    name: "Run 3",
+    id: "run3",
+    genre: "Infinite",
+    description: "Run 3 is an incredibly addicting, endless runner-type action/platforming game in which you play as a little grey alien. The little alien is trespassing in an architecturally challenged area that is floating in space.",
+    link: "https://fs9a.sumibi.org/games/run3/game/index.html",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/run3.jpeg`,
+    publisher: "Joseph Cloutier",
+    controls: [
+        "",
+    ]
+},
+{
+    name: "Super Mario 64",
+    id: "sm64",
+    genre: "Retro",
+    description: "Super Mario 64 is a platform game developed and published by Nintendo for the Nintendo 64.",
+    link: "https://fs9a.sumibi.org/games/sm64/game/index.html",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/sm64.jpeg`,
+    publisher: "Nintendo",
+    controls: [
+        "",
+    ]
+},
+{
+    name: "Stickman Hook",
+    id: "stickman",
+    genre: "Skill",
+    description: "Stickman Hook is a skill game where you play as a swinging stickman through hundreds of challenging levels.",
+    link: "https://fs9a.sumibi.org/games/stickman/game/index.html",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/stick.png`,
+    publisher: "Madbox",
+    controls: [
+        "",
+    ]
+},
+{
+    name: "Subway Surffers",
+    id: "subway",
+    genre: "Infinite",
+    description: "Subway Surfers is an endless runner mobile game which is co-developed by Kiloo and SYBO Games, private companies based in Denmark.",
+    link: "https://fs9a.sumibi.org/games/subway/game/index.html",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/subway.jpg`,
+    publisher: "SYBO Games",
+    controls: [
+        "",
+    ]
+},
+{
+    name: "Super Hot",
+    id: "superhot",
+    genre: "Shooter",
+    description: "Superhot is an independent first-person shooter video game developed and published by Superhot Team",
+    link: "https://fs9a.sumibi.org/games/superhot/game/index.html",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/superhot.jpeg`,
+    publisher: "Superhot Team",
+    controls: [
+        "",
+    ]
+},
+{
+    name: "Papa's Taco Mia",
+    id: "tacomia",
+    genre: "Simulation",
+    description: "Papa's Taco Mia is a cooking game created by Flipline Studios.",
+    link: "https://fs9a.sumibi.org/games/tacomia/game/index.html",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/tacomia.jpg`,
+    publisher: "Flipline Studios",
+    controls: [
+        "",
+    ]
+},
+{
+    name: "Tanuki Sunset",
+    id: "tanuki",
+    genre: "Infinite",
+    description: "Tanuki Sunset is a downhill skateboarding game with a raccoon protagonist called Tanuki.",
+    link: "https://fs9a.sumibi.org/games/tanuki/game/index.html",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/sunset.jpeg`,
+    publisher: "Squid Squad",
+    controls: [
+        "",
+    ]
+},
+{
+    name: "Temple Run 2",
+    id: "temple",
+    genre: "Infinite",
+    description: "Temple Run 2 is an endless runner video game developed and published by Imangi Studios.",
+    link: "https://fs9a.sumibi.org/games/temple/game/index.html",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/temple.jpg`,
+    publisher: "Imangi Studios",
+    controls: [
+        "",
+    ]
+},
+{
+    name: "Tetris",
+    id: "tetris",
+    genre: "Puzzle",
+    description: "The Tetris game was created by Alexey Pajitnov in 1984—the product of Alexey’s computer programming experience and his love of puzzles.",
+    link: "https://fs9a.sumibi.org/games/tetris/game/index.html",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/tetris.jpeg`,
+    publisher: "Alexey Pajitnov",
+    controls: [
+        "",
+    ]
+},
+{
+    name: "Tiny Fishing",
+    id: "tiny-fishing",
+    genre: "Idle",
+    description: "Tiny Fishing is a fun fishing game where you draw your line and hook as many fish as possible.",
+    link: "https://fs9a.sumibi.org/games/tiny-fishing/game/index.html",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/fish.jpeg`,
+    publisher: "Mad Buffer",
+    controls: [
+        "",
+    ]
+},
+{
+    name: "Townscaper",
+    id: "town",
+    genre: "Miscellaneous",
+    description: "Townscaper is a city builder game by Oskar Stålberg. It was released for Windows and Mac in August 2021.",
+    link: "https://fs9a.sumibi.org/games/town/game/index.html",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/townscaper.jpeg`,
+    publisher: "Oskar Stålberg",
+    controls: [
+        "",
+    ],
+    new: true
+},
+{
+    name: "Tunnel Rush",
+    id: "tunnel",
+    genre: "Infinite",
+    description: "Tunnel Rush online is the ultimate 3D single-player experience. Blaze your way through caves and tunnels. ",
+    link: "https://fs9a.sumibi.org/games/tunnlerush/game/index.html",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/rush.jpeg`,
+    publisher: "Deer Cat Games",
+    controls: [
+        "",
+    ]
+},
+{
+    name: "Vex6",
+    id: "vex6",
+    genre: "Skill",
+    description: "Vex 6 is the sixth platform game in the Vex series. There are several new features and challenges in Vex 6.",
+    link: "https://fs9a.sumibi.org/games/vex6/game/index.html",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/vex-6.png`,
+    publisher: "Amazing Adam",
+    controls: [
+        "",
+    ]
+},
+{
+    name: "Vex7",
+    id: "vex7",
+    genre: "Skill",
+    description: "Vex 7 is the seventh platform game in the Vex series. There are several new features and challenges in Vex 6.",
+    link: "https://fs9a.sumibi.org/games/vex7/game/index.html",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/vex-7.jpg`,
+    publisher: "Amazing Adam",
+    controls: [
+        "",
+    ]
+},
+{
+    name: "Volley Random",
+    id: "volley",
+    genre: "Sports",
+    description: "Volley Random is another episode of the Sports Random series, which includes Basket Random and Soccer Random.",
+    link: "https://fs9a.sumibi.org/games/volley/game/index.html",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/volley.jpeg`,
+    publisher: "RHM Interactive",
+    controls: [
+        "",
+    ]
+},
+{
+    name: "Wordle",
+    id: "wordle",
+    genre: "Miscellaneous",
+    description: "Wordle is a web-based word game created and developed by Welsh software engineer Josh Wardle.",
+    link: "https://fs9a.sumibi.org/games/wordle/game/index.html",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/wordle.webp`,
+    publisher: "Josh Wardle",
+    controls: [
+        "",
+    ]
+},
+
 
 
     // {
@@ -1310,8 +1791,7 @@ if(window.location.pathname.endsWith("games.html") || window.location.pathname.e
                     document.getElementById("favoriteTextOption").innerText = "Unfavorite"
 
                     document.getElementById("cbfavorite").onclick = function(){ unfavorite(data[i].id) }
-                    document.getElementById("cbfavoriteicon").className = "bx bxs-heart cbicon"
-                    document.getElementById("cbfavoriteicon").style.color = '#fb0202';
+                    document.getElementById("cbfavoriteicon").className = "bx bxs-star cbicon"
                 } else {
                     document.getElementById("favoriteOption").onclick = function(){ favorite(data[i].id) }
                     document.getElementById("favStarOption").className = "bx bx-heart icon"
