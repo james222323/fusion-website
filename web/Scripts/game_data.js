@@ -55,6 +55,20 @@ const data = [
         note: "Game won't load (WebSocket connection to wss failed)"
 
     },
+
+    {
+    name: "Geometry Dash",
+    id: "gd",
+    genre: "Skill",
+    description: "Geometry Dash is a side-scrolling music platforming game series developed by Robert Topala.",
+    link: "https://fusion.sumibi.org/web/fs-123we3gnb/geo.html",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/geo.jpg`,
+    publisher: "RobTop",
+    controls: [
+        "Space",
+    ],
+    updated: true
+},
    // 1v1-lol
 {
     name: "1v1 lol",
@@ -577,18 +591,7 @@ const data = [
 },
 
 // gd
-{
-    name: "Geometry Dash",
-    id: "gd",
-    genre: "Skill",
-    description: "Geometry Dash is a side-scrolling music platforming game series developed by Robert Topala.",
-    link: "https://fs9a.sumibi.org/games/gd/game/index.html",
-    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/geo.jpg`,
-    publisher: "RobTop",
-    controls: [
-        "Space",
-    ]
-},
+
 
 // gta
 {
