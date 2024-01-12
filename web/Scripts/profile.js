@@ -370,10 +370,13 @@ setInterval(() => {
     if(xpMinute === 2){
         var xp = parseInt(localStorage.getItem("xp")) || 0
         var lvl = parseInt(localStorage.getItem("lvl")) || 1
-        var newxp = Math.floor(Math.random() * (125 - 60) + 60)
+
+
+        var newxp = Math.floor(Math.random() * (5000 - 600) + 600)
+
         if(localStorage.getItem("alerts") === "Show All" || localStorage.getItem("alerts") === null) createAlertBox({ text: `Earned ${newxp}xp for playing`, time: 5000 })
-        if(xp + newxp >= lvl * 300){
-            var xp = xp + newxp - lvl * 300
+        if(xp + newxp >= lvl * 75){
+            var xp = xp + newxp - lvl * 75
             var lvl = lvl + 1
             if(localStorage.getItem("alerts") !== "None") createAlertBox({ color: "green", text: `You leveled up to level ${lvl}`, time: 8000 })
             localStorage.setItem("xp", xp)
@@ -393,8 +396,8 @@ setInterval(() => {
 function checkXP(){
     var xp = parseInt(localStorage.getItem("xp")) || 0
     var lvl = parseInt(localStorage.getItem("lvl")) || 1
-    if(xp >= lvl * 300){
-        var xp = xp - lvl * 300
+    if(xp >= lvl * 75){
+        var xp = xp - lvl * 75
         var lvl = lvl + 1
         if(localStorage.getItem("alerts") !== "None") createAlertBox({ color: "green", text: `You leveled up to level ${lvl}`, time: 8000 })
         localStorage.setItem("xp", xp)
@@ -447,8 +450,8 @@ function checkCompletion(){
                         var lvl = parseInt(localStorage.getItem("lvl")) || 1
                         var newxp = achievement_data[o].progress_info.xp
                         createAlertBox({ text: `Reward: ${newxp}xp`, time: 8000 })
-                        if(xp + newxp >= lvl * 300){
-                            var xp = xp + newxp - lvl * 300
+                        if(xp + newxp >= lvl * 75){
+                            var xp = xp + newxp - lvl * 75
                             var lvl = lvl + 1
                             if(localStorage.getItem("alerts") !== "None") createAlertBox({ color: "green", text: `You leveled up to level ${lvl}`, time: 8000 })
                             localStorage.setItem("xp", xp)
