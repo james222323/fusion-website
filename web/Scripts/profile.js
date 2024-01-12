@@ -334,7 +334,7 @@ if(window.location.pathname.includes("games.html") || window.location.pathname.i
     document.onkeydown = function(){ notafklol() }
 }
 // document.getElementById("fullscreenGame").onmousemove = function(){ console.log("l")}
-var xpMinute = 0.10
+var xpMinute = 1
 setInterval(() => {
     if (playing === false) return checkCompletion();
     if (lastInput + 1620000 < Date.now() || !document.getElementById("afkdetector") && (window.location.pathname.includes("games.html") || window.location.pathname.includes("games"))) {
