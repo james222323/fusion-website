@@ -370,7 +370,7 @@ setInterval(() => {
     if(xpMinute === 2){
         var xp = parseInt(localStorage.getItem("xp")) || 0
         var lvl = parseInt(localStorage.getItem("lvl")) || 1
-        var newxp = (Math.floor(Math.random() * (40 - 20) + 1) + 10) * lvl;
+        var newxp = (Math.floor(Math.random() * (40 - 20) + 20) + 10) * lvl;
         if(localStorage.getItem("alerts") === "Show All" || localStorage.getItem("alerts") === null) createAlertBox({ text: `Earned ${newxp}xp for playing`, time: 5000 })
         if(xp + newxp >= lvl * 75){
             var xp = xp + newxp - lvl * 75
