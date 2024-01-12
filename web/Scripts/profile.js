@@ -215,11 +215,11 @@ function loadProfile(){
 
     var games_played = localStorage.getItem("playedGames") || null
     if(!games_played){
-        document.getElementById("games_played_text").innerText = `0/49`
+        document.getElementById("games_played_text").innerText = `0/85`
         document.getElementById("games_played").setAttribute("stroke-dasharray", "0, 100")
     } else {
-        document.getElementById("games_played_text").innerText = `${games_played.split("||").length - 1}/49`
-        document.getElementById("games_played").setAttribute("stroke-dasharray", Math.trunc((games_played.split("||").length - 1) / 49 * 100) + ", 100")
+        document.getElementById("games_played_text").innerText = `${games_played.split("||").length - 1}/85`
+        document.getElementById("games_played").setAttribute("stroke-dasharray", Math.trunc((games_played.split("||").length - 1) / 85 * 100) + ", 100")
     }
 
     var minutes_played = parseInt(localStorage.getItem("minutes_played")) || 0
@@ -370,7 +370,7 @@ setInterval(() => {
     if(xpMinute === 2){
         var xp = parseInt(localStorage.getItem("xp")) || 0
         var lvl = parseInt(localStorage.getItem("lvl")) || 1
-        var newxp = (Math.floor(Math.random() * (150 - 60) + 60) + 10) * lvl;
+        var newxp = (Math.floor(Math.random() * (5 - 1) + 1) + 10) * lvl;
         if(localStorage.getItem("alerts") === "Show All" || localStorage.getItem("alerts") === null) createAlertBox({ text: `Earned ${newxp}xp for playing`, time: 5000 })
         if(xp + newxp >= lvl * 75){
             var xp = xp + newxp - lvl * 75
