@@ -334,64 +334,179 @@ if(window.location.pathname.includes("games.html") || window.location.pathname.i
     document.onkeydown = function(){ notafklol() }
 }
 // document.getElementById("fullscreenGame").onmousemove = function(){ console.log("l")}
-var xpMinute = 1
+var xpMinute = 0.10
 setInterval(() => {
-    if(playing === false) return checkCompletion();
-    if(lastInput + 1620000 < Date.now() || !document.getElementById("afkdetector") && (window.location.pathname.includes("games.html") || window.location.pathname.includes("games"))){
+    if (playing === false) return checkCompletion();
+    if (lastInput + 1620000 < Date.now() || !document.getElementById("afkdetector") && (window.location.pathname.includes("games.html") || window.location.pathname.includes("games"))) {
         exitWindowed();
         exitFullscreen();
         setTimeout(() => {
-            if(!document.getElementById("afk_message1") && lastInput + 1020000 < Date.now()){
-                createAlertBox({ color: "red", text: `Your about to go afk`, time: "never", id:"afk_message0" })
-                createAlertBox({ color: "red", text: `Interact with the site`, time: "never", id:"afk_message1" })
+            if (!document.getElementById("afk_message1") && lastInput + 1020000 < Date.now()) {
+                createAlertBox({ color: "red", text: `Your about to go afk`, time: "never", id: "afk_message0" });
+                createAlertBox({ color: "red", text: `Interact with the site`, time: "never", id: "afk_message1" });
             }
-            document.getElementById("afkdetector").style.display = "block"
-            document.activeElement.blur()
-        }, 3000)
+            document.getElementById("afkdetector").style.display = "block";
+            document.activeElement.blur();
+        }, 3000);
     }
-    if(lastInput + 1800000 < Date.now() || !document.getElementById("afkdetector") && (window.location.pathname.includes("games.html") || window.location.pathname.includes("games"))){
+    if (lastInput + 1800000 < Date.now() || !document.getElementById("afkdetector") && (window.location.pathname.includes("games.html") || window.location.pathname.includes("games"))) {
         exitWindowed();
         exitFullscreen();
         setTimeout(() => {
-            if(!document.getElementById("afk_message2") && lastInput + 1200000 < Date.now()){
+            if (!document.getElementById("afk_message2") && lastInput + 1200000 < Date.now()) {
                 document.getElementById("afk_message0").remove();
                 document.getElementById("afk_message1").remove();
-                createAlertBox({ color: "red", text: `You've gone afk 💻`, time: "never", id:"afk_message2" })
-                createAlertBox({ color: "red", text: `Interact with the site`, time: "never", id:"afk_message1" })
+                createAlertBox({ color: "red", text: `You've gone afk 💻`, time: "never", id: "afk_message2" });
+                createAlertBox({ color: "red", text: `Interact with the site`, time: "never", id: "afk_message1" });
             }
-            document.getElementById("afkdetector").style.display = "block"
-            document.getElementById("fullscreenGame").style.opacity = 0.5
-            document.activeElement.blur()
-            return; //no xp for you ;)
-        }, 3000)
+            document.getElementById("afkdetector").style.display = "block";
+            document.getElementById("fullscreenGame").style.opacity = 0.5;
+            document.activeElement.blur();
+            return; // no xp for you ;)
+        }, 3000);
     }
-    var minutes_played = localStorage.getItem("minutes_played") || 0
-    localStorage.setItem("minutes_played", parseInt(minutes_played) + 1)
-    if(xpMinute === 2){
-        var xp = parseInt(localStorage.getItem("xp")) || 0
-        var lvl = parseInt(localStorage.getItem("lvl")) || 1
+    
+    var minutes_played = localStorage.getItem("minutes_played") || 0;
+    localStorage.setItem("minutes_played", parseInt(minutes_played) + 1);
+    var xpMinute = 1;
+
+    if (playing === false) return checkCompletion();
+    if (lastInput + 1620000 < Date.now() || !document.getElementById("afkdetector") && (window.location.pathname.includes("games.html") || window.location.pathname.includes("games"))) {
+        exitWindowed();
+        exitFullscreen();
+        setTimeout(() => {
+            if (!document.getElementById("afk_message1") && lastInput + 1020000 < Date.now()) {
+                createAlertBox({ color: "red", text: `Your about to go afk`, time: "never", id: "afk_message0" });
+                createAlertBox({ color: "red", text: `Interact with the site`, time: "never", id: "afk_message1" });
+            }
+            document.getElementById("afkdetector").style.display = "block";
+            document.activeElement.blur();
+        }, 3000);
+    }
+    if (lastInput + 1800000 < Date.now() || !document.getElementById("afkdetector") && (window.location.pathname.includes("games.html") || window.location.pathname.includes("games"))) {
+        exitWindowed();
+        exitFullscreen();
+        setTimeout(() => {
+            if (!document.getElementById("afk_message2") && lastInput + 1200000 < Date.now()) {
+                document.getElementById("afk_message0").remove();
+                document.getElementById("afk_message1").remove();
+                createAlertBox({ color: "red", text: `You've gone afk 💻`, time: "never", id: "afk_message2" });
+                createAlertBox({ color: "red", text: `Interact with the site`, time: "never", id: "afk_message1" });
+            }
+            document.getElementById("afkdetector").style.display = "block";
+            document.getElementById("fullscreenGame").style.opacity = 0.5;
+            document.activeElement.blur();
+            return; // no xp for you ;)
+        }, 3000);
+    }
+
+    var minutes_played = localStorage.getItem("minutes_played") || 0;
+    localStorage.setItem("minutes_played", parseInt(minutes_played) + 1);
+    var xpMinute = 1;
+
+    if (playing === false) return checkCompletion();
+    if (lastInput + 1620000 < Date.now() || !document.getElementById("afkdetector") && (window.location.pathname.includes("games.html") || window.location.pathname.includes("games"))) {
+        exitWindowed();
+        exitFullscreen();
+        setTimeout(() => {
+            if (!document.getElementById("afk_message1") && lastInput + 1020000 < Date.now()) {
+                createAlertBox({ color: "red", text: `Your about to go afk`, time: "never", id: "afk_message0" });
+                createAlertBox({ color: "red", text: `Interact with the site`, time: "never", id: "afk_message1" });
+            }
+            document.getElementById("afkdetector").style.display = "block";
+            document.activeElement.blur();
+        }, 3000);
+    }
+    if (lastInput + 1800000 < Date.now() || !document.getElementById("afkdetector") && (window.location.pathname.includes("games.html") || window.location.pathname.includes("games"))) {
+        exitWindowed();
+        exitFullscreen();
+        setTimeout(() => {
+            if (!document.getElementById("afk_message2") && lastInput + 1200000 < Date.now()) {
+                document.getElementById("afk_message0").remove();
+                document.getElementById("afk_message1").remove();
+                createAlertBox({ color: "red", text: `You've gone afk 💻`, time: "never", id: "afk_message2" });
+                createAlertBox({ color: "red", text: `Interact with the site`, time: "never", id: "afk_message1" });
+            }
+            document.getElementById("afkdetector").style.display = "block";
+            document.getElementById("fullscreenGame").style.opacity = 0.5;
+            document.activeElement.blur();
+            return; // no xp for you ;)
+        }, 3000);
+    }
+
+    var minutes_played = localStorage.getItem("minutes_played") || 0;
+    localStorage.setItem("minutes_played", parseInt(minutes_played) + 1);
+    var xpMinute = 1;
+
+    if (playing === false) return checkCompletion();
+    if (lastInput + 1620000 < Date.now() || !document.getElementById("afkdetector") && (window.location.pathname.includes("games.html") || window.location.pathname.includes("games"))) {
+        exitWindowed();
+        exitFullscreen();
+        setTimeout(() => {
+            if (!document.getElementById("afk_message1") && lastInput + 1020000 < Date.now()) {
+                createAlertBox({ color: "red", text: `Your about to go afk`, time: "never", id: "afk_message0" });
+                createAlertBox({ color: "red", text: `Interact with the site`, time: "never", id: "afk_message1" });
+            }
+            document.getElementById("afkdetector").style.display = "block";
+            document.activeElement.blur();
+        }, 3000);
+    }
+    if (lastInput + 1800000 < Date.now() || !document.getElementById("afkdetector") && (window.location.pathname.includes("games.html") || window.location.pathname.includes("games"))) {
+        exitWindowed();
+        exitFullscreen();
+        setTimeout(() => {
+            if (!document.getElementById("afk_message2") && lastInput + 1200000 < Date.now()) {
+                document.getElementById("afk_message0").remove();
+                document.getElementById("afk_message1").remove();
+                createAlertBox({ color: "red", text: `You've gone afk 💻`, time: "never", id: "afk_message2" });
+                createAlertBox({ color: "red", text: `Interact with the site`, time: "never", id: "afk_message1" });
+            }
+            document.getElementById("afkdetector").style.display = "block";
+            document.getElementById("fullscreenGame").style.opacity = 0.5;
+            document.activeElement.blur();
+            return; // no xp for you ;)
+        }, 3000);
+    }
+    
+    var minutes_played = localStorage.getItem("minutes_played") || 0;
+    localStorage.setItem("minutes_played", parseInt(minutes_played) + 1);
+    
+    if (xpMinute === 2) {
+        var xp = parseInt(localStorage.getItem("xp")) || 0;
+        var lvl = parseInt(localStorage.getItem("lvl")) || 1;
+
+        // Calculate XP based on level (adjust the formula as needed)
+        var newxp = (Math.floor(Math.random() * (150 - 60) + 60) + 10) * lvl;
 
 
-        var newxp = Math.floor(Math.random() * (5000 - 600) + 600)
-
-        if(localStorage.getItem("alerts") === "Show All" || localStorage.getItem("alerts") === null) createAlertBox({ text: `Earned ${newxp}xp for playing`, time: 5000 })
-        if(xp + newxp >= lvl * 75){
-            var xp = xp + newxp - lvl * 75
-            var lvl = lvl + 1
-            if(localStorage.getItem("alerts") !== "None") createAlertBox({ color: "green", text: `You leveled up to level ${lvl}`, time: 8000 })
-            localStorage.setItem("xp", xp)
-            localStorage.setItem("lvl", lvl)
-        } else {
-            var xp = xp + newxp
-            localStorage.setItem("xp", xp)
+        if (localStorage.getItem("alerts") === "Show All" || localStorage.getItem("alerts") === null) {
+            createAlertBox({ text: `Earned ${newxp}xp for playing`, time: 5000 });
         }
-        xpMinute = 1
+
+        if (xp + newxp >= lvl * 75) {
+            var xp = xp + newxp - lvl * 75;
+            var lvl = lvl + 1;
+
+            if (localStorage.getItem("alerts") !== "None") {
+                createAlertBox({ color: "green", text: `You leveled up to level ${lvl}`, time: 8000 });
+            }
+
+            localStorage.setItem("xp", xp);
+            localStorage.setItem("lvl", lvl);
+        } else {
+            var xp = xp + newxp;
+            localStorage.setItem("xp", xp);
+        }
+        xpMinute = 1;
     } else {
-        xpMinute = 2
+        xpMinute = 2;
     }
+
     sendSiteData();
     checkCompletion();
-}, 60000)
+
+}, 60000);
+
 
 function checkXP(){
     var xp = parseInt(localStorage.getItem("xp")) || 0
