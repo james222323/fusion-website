@@ -106,7 +106,7 @@ const achievement_data = [
         id: "bronze_rank",
         reward: "+1 Level + <img src='https://cdn.jsdelivr.net/gh/james222323/cdnfs@master/bronze.png' class='img-emoji2'> Rank",
         progress: null,
-        progress_info: { a: "play_games", b: 1, xp: 100, b_id: "1" }
+        progress_info: { a: "play_games", b: 6, xp: 100, b_id: "1" }
     },
     {
         name: "Reach Level 30",
@@ -215,11 +215,11 @@ function loadProfile(){
 
     var games_played = localStorage.getItem("playedGames") || null
     if(!games_played){
-        document.getElementById("games_played_text").innerText = `0/85`
+        document.getElementById("games_played_text").innerText = `0/49`
         document.getElementById("games_played").setAttribute("stroke-dasharray", "0, 100")
     } else {
-        document.getElementById("games_played_text").innerText = `${games_played.split("||").length - 1}/85`
-        document.getElementById("games_played").setAttribute("stroke-dasharray", Math.trunc((games_played.split("||").length - 1) / 85 * 100) + ", 100")
+        document.getElementById("games_played_text").innerText = `${games_played.split("||").length - 1}/49`
+        document.getElementById("games_played").setAttribute("stroke-dasharray", Math.trunc((games_played.split("||").length - 1) / 49 * 100) + ", 100")
     }
 
     var minutes_played = parseInt(localStorage.getItem("minutes_played")) || 0
@@ -370,7 +370,7 @@ setInterval(() => {
     if(xpMinute === 2){
         var xp = parseInt(localStorage.getItem("xp")) || 0
         var lvl = parseInt(localStorage.getItem("lvl")) || 1
-        var newxp = (Math.floor(Math.random() * (40 - 20) + 20) + 10) * lvl;
+        var newxp = Math.floor(Math.random() * (125 - 60) + 60)
         if(localStorage.getItem("alerts") === "Show All" || localStorage.getItem("alerts") === null) createAlertBox({ text: `Earned ${newxp}xp for playing`, time: 5000 })
         if(xp + newxp >= lvl * 75){
             var xp = xp + newxp - lvl * 75
