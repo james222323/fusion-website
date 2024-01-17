@@ -472,7 +472,7 @@ function checkCompletion(){
                     var badges = localStorage.getItem("badges") || ""
                     badges = badges + `${achievement_data[o].progress_info.b_id} || `
                     localStorage.setItem("badges", badges)
-                    createAlertBox({ text: `Reward: New Rank!`, time: 8000 })
+                    createAlertBox({ text: `Reward: New Badge!`, time: 8000 })
                 }
                 loadProfile();
             }
