@@ -66,7 +66,7 @@ const data = [
     controls: [
         "Arow Keys",
     ],
-    updated: true
+    new: true
 },
 
     
