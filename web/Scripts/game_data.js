@@ -55,6 +55,21 @@ const data = [
         note: "Game won't load (WebSocket connection to wss failed)"
 
     },
+        {
+    name: "Tag",
+    id: "tag",
+    genre: "2 PLayer",
+    description: "TAG is local multiplayer game of catch! Square up against one, two or three of your friends and chase each other around one of three different levels!",
+    link: "https://fusion.sumibi.org/web/fs-123we3gnb/tag.html",
+    img: `https://fusion.sumibi.org/web/tempimg/tag.jpeg`,
+    publisher: "JetGames",
+    controls: [
+        "Arow Keys",
+    ],
+    updated: true
+},
+
+    
 
     {
     name: "Geometry Dash",
