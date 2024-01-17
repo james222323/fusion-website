@@ -2600,6 +2600,12 @@ body.dark #play_icon {
     transform: translateY(4px);
 }
 
+.img-emoji-verified{
+    width: 45px;
+    height: 30px;
+    transform: translateY(4px);
+}
+
 
 .hotkeysoverlay{
     width: 70%;
