@@ -12,7 +12,7 @@ if (typeof(Storage) !== "undefined") {
             if (validateCode(enteredCode)) {
                 var newXp; 
 
-                if (enteredCode === "Verified") {
+                if (enteredCode === "thisisnothowyougetverified") {
                     verifiedCode();
                     codeMessage = "Verified badge";
                 }
@@ -45,7 +45,7 @@ if (typeof(Storage) !== "undefined") {
     });
 
     function validateCode(code) {
-        var validCodes = ["2024", "Verified", "whisper"];
+        var validCodes = ["2024", "thisisnothowyougetverified", "whisper"];
         return validCodes.includes(code);
     }
 
@@ -68,8 +68,8 @@ if (typeof(Storage) !== "undefined") {
     function verifiedCode() {
         var badges = localStorage.getItem("badges") || "";
 
-        if (!badges.includes("verified")) {
-            badges = badges + "verified || ";
+        if (!badges.includes("verified1")) {
+            badges = badges + "verified1 || ";
             localStorage.setItem("badges", badges);
 
             loadProfile();
