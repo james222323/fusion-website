@@ -234,8 +234,8 @@ function loadProfile(){
     document.getElementById("achievements_completed").setAttribute("stroke-dasharray", Math.trunc(achievementsCompleted / achievement_data.length * 100) + ", 100")
 
     var badgesEarned = localStorage.getItem("badges") || ""
-    document.getElementById("badges_earned_text").innerText = `${badgesEarned.split(" || ").length - 1}/8`
-    document.getElementById("badges_earned").setAttribute("stroke-dasharray", Math.trunc((badgesEarned.split(" || ").length - 1) / 8 * 100) + ", 100")
+    document.getElementById("badges_earned_text").innerText = `${badgesEarned.split(" || ").length - 1}/9`
+    document.getElementById("badges_earned").setAttribute("stroke-dasharray", Math.trunc((badgesEarned.split(" || ").length - 1) / 9 * 100) + ", 100")
     badges_earned_text
 }
 
