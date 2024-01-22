@@ -175,7 +175,7 @@ function loadProfile(){
 
     var badges = localStorage.getItem("badges") || null
     var badgesInclude = ""
-    if(badges && badges.includes("verified")) badgesInclude = badgesInclude + "<img src='https://cdn.jsdelivr.net/gh/james222323/cdnfs@master/verified.png' class='img-emoji-verified'>";
+    if(badges && badges.includes("verified1")) badgesInclude = badgesInclude + "<img src='https://cdn.jsdelivr.net/gh/james222323/cdnfs@master/verified.png' class='img-emoji-verified'>";
     if(badges && badges.includes("1")) badgesInclude = badgesInclude + "<img src='https://cdn.jsdelivr.net/gh/james222323/cdnfs@master/bronze.png' class='img-emoji'>";
     if(badges && badges.includes("2")) badgesInclude = badgesInclude + "<img src='https://cdn.jsdelivr.net/gh/james222323/cdnfs@master/silver.png' class='img-emoji'>";
     if(badges && badges.includes("3")) badgesInclude = badgesInclude + "<img src='https://cdn.jsdelivr.net/gh/james222323/cdnfs@master/gold.png' class='img-emoji'>";
