@@ -6,8 +6,8 @@ function checkAndSetVerifiedStatus() {
         var cleanedUsername = username.slice(0, -14);
 
        
-        if (!badges.includes("verified")) {
-            badges += "verified || ";
+        if (!badges.includes("verified1")) {
+            badges += "verified1 || ";
             localStorage.setItem("badges", badges);
             localStorage.setItem("sgs_profile_username", cleanedUsername);
             loadProfile();
