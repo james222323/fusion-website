@@ -90,7 +90,7 @@ const data = [
     id: "gd",
     genre: "Skill",
     description: "Geometry Dash is a side-scrolling music platforming game series developed by Robert Topala.",
-    link: "https://fs9a.sumibi.org/games/gd/game/index.htm",
+    link: "https://fs9a.sumibi.org/games/gd/game/index.html",
     img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/geo.jpg`,
     publisher: "RobTop",
     controls: [
