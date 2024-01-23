@@ -55,14 +55,28 @@ const data = [
         note: "Game won't load (WebSocket connection to wss failed)"
 
     },
-        {
-    name: "Tag",
-    id: "tag",
-    genre: "2 PLayer",
-    description: "TAG is local multiplayer game of catch! Square up against one, two or three of your friends and chase each other around one of three different levels!",
-    link: "https://fusion.sumibi.org/web/fs-123we3gnb/tag.html",
-    img: `https://fusion.sumibi.org/web/tempimg/tag.jpeg`,
-    publisher: "JetGames",
+      {
+    name: "Gun Mayhem 2",
+    id: "gun",
+    genre: "2 Player",
+    description: "Gun Mayhem 2 is an action-packed 2D platformer shooting game. Fight in chaotic battles packed with weapons and explosives. ",
+    link: "https://fs9a.sumibi.org/games/gun2/game/index.html",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs/img/gun2.webp`,
+    publisher: "Kevin Gu",
+    controls: [
+        "Arow Keys",
+    ],
+    new: true
+},
+
+{
+    name: "OvO Dimensions",
+    id: "ovod",
+    genre: "Skill",
+    description: "OvO Dimension is an arcade platform game made by Dedra Games. You control a stickman character that has simple and basic actions. Jump, Walljump and slide your way through the levels ! ",
+    link: "https://fs9a.sumibi.org/games/ovod/game/index.html",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs/img/ovod.jpeg`,
+    publisher: "Dedra Games",
     controls: [
         "Arow Keys",
     ],
@@ -76,7 +90,7 @@ const data = [
     id: "gd",
     genre: "Skill",
     description: "Geometry Dash is a side-scrolling music platforming game series developed by Robert Topala.",
-    link: "https://fusion.sumibi.org/web/fs-123we3gnb/geo.html",
+    link: "https://fs9a.sumibi.org/games/gd/game/index.htm",
     img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/geo.jpg`,
     publisher: "RobTop",
     controls: [
