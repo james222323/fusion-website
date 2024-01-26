@@ -24,6 +24,11 @@ if (typeof(Storage) !== "undefined") {
                     newXp = whsiperCode(); 
                     codeMessage = (`${newXp} XP.`);
                 }
+                  if (enteredCode === "Alexi") {
+                    newXp = whsiperCode(); 
+                    codeMessage = (`${newXp} XP.`);
+                }
+
 
                 showMessage("Congratulations! you redeemed", 'success', codeMessage);
                 redeemedCodes.push(enteredCode);
@@ -45,7 +50,7 @@ if (typeof(Storage) !== "undefined") {
     });
 
     function validateCode(code) {
-        var validCodes = ["2024", "thisisnothowyougetverified", "whisper"];
+        var validCodes = ["2024", "thisisnothowyougetverified", "whisper", "Alexi" ];
         return validCodes.includes(code);
     }
 
