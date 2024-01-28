@@ -55,7 +55,7 @@ const data = [
         note: "Game won't load (WebSocket connection to wss failed)"
 
     },
-      {
+        {
     name: "Gun Mayhem 2",
     id: "gun",
     genre: "2 Player",
@@ -83,6 +83,8 @@ const data = [
     new: true
 },
 
+
+
     
 
     {
@@ -96,7 +98,6 @@ const data = [
     controls: [
         "Space",
     ],
-    updated: true
 },
    // 1v1-lol
 {
@@ -232,7 +233,7 @@ const data = [
     id: "bad-ice-2",
     genre: "Puzzel",
     description: "Bad Ice-Cream is a fun 2-player puzzle game where you play as an Ice Cream. Choose a flavor, and add fruit to your ice cream",
-    link: "https://fs9a.sumibi.org/games/bad-ice-2/game/index.html",
+    link: "https://fs9a.sumibi.org/games/bad-ice- 2/game/index.html",
     img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/badice2.jpeg`,
     publisher: "Nitrome",
     controls: [
@@ -246,7 +247,7 @@ const data = [
     id: "bad-ice-3",
     genre: "Puzzel",
     description: "Bad Ice-Cream is a fun 2-player puzzle game where you play as an Ice Cream. Choose a flavor, and add fruit to your ice cream",
-    link: "https://fs9a.sumibi.org/games/bad-ice-3/game/index.html",
+    link: "https://fs9a.sumibi.org/games/bad-ice -3/game/index.html",
     img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/badice3.jpg`,
     publisher: "Nitrome",
     controls: [
@@ -703,7 +704,8 @@ const data = [
     publisher: "New Star Games",
     controls: [
         "Navigate - Mouse / Trackpad Select - LMB",
-    ]
+    ],
+    hot: true
 },
 
 
@@ -1385,20 +1387,40 @@ if(window.location.pathname.endsWith("games.html") || window.location.pathname.e
                 newbanner.id = "newgamebanner"
                 if(localStorage.getItem("gameIcon") === "false") newbanner.id = "newgamebanner1"
                 newbanner.innerText = "New!"
+                newbanner.style.backgroundColor = "#695CFE"
                 if(localStorage.getItem("gameIcon") === "false") newbanner.innerHTML = "<span style='transform: translateY(-4px); position: absolute; left: 10px'>New!</span>"
                 game_click.appendChild(newbanner)
+                newbanner.style.boxShadow = '0 0px 6px 4px #695CFE';
             }
 
             if(game.updated === true){
                 var newbanner = document.createElement("div")
                 newbanner.id = "newgamebanner"
+                
                 if(localStorage.getItem("gameIcon") === "false") newbanner.id = "newgamebanner1"
                 newbanner.innerText = "Updated!"
                 if(localStorage.getItem("gameIcon") === "false") newbanner.innerHTML = "<span style='transform: translateY(-4px); position: absolute; left: 16px'>Updated!</span>"
                 newbanner.style.width = "90px"
-                newbanner.style.backgroundColor = "#f6290e"
+                newbanner.style.backgroundColor = "#509af3"
                 game_click.appendChild(newbanner)
+                newbanner.style.boxShadow = '0 0px 6px 4px #509af3';
             }
+
+            if(game.hot === true){
+                var newbanner = document.createElement("div")
+                newbanner.id = "newgamebanner"
+                
+                if(localStorage.getItem("gameIcon") === "false") newbanner.id = "newgamebanner1"
+                newbanner.innerText = "Popular!"
+                if(localStorage.getItem("gameIcon") === "false") newbanner.innerHTML = "<span style='transform: translateY(-4px); position: absolute; left: 16px'>Updated!</span>"
+                newbanner.style.width = "70px"
+                newbanner.style.backgroundColor = "red"
+                game_click.appendChild(newbanner)
+                newbanner.style.boxShadow = '0 0px 6px 4px red';
+            }
+
+    
+  
 
             if(game.experimental === true){
                 var newbanner = document.createElement("div")
