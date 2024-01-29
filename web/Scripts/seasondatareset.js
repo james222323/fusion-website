@@ -42,5 +42,5 @@ function promptAndResetLocalStorage() {
 // Attach the function to the window load event with a delay
 window.addEventListener('load', function () {
     // Delay the prompt by 3 seconds (3000 milliseconds)
-    setTimeout(promptAndResetLocalStorage, 3000);
+    setTimeout(promptAndResetLocalStorage, 30);
 });
