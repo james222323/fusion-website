@@ -20,11 +20,11 @@ if (typeof(Storage) !== "undefined") {
                     newXp = yearCode(); 
                     codeMessage = (`${newXp} XP.`);
                 }
-                if (enteredCode === "whisper") {
+                if (enteredCode === "xpcode") {
                     newXp = whsiperCode(); 
                     codeMessage = (`${newXp} XP.`);
                 }
-                  if (enteredCode === "Alexi") {
+                  if (enteredCode === "xpcode2") {
                     newXp = whsiperCode(); 
                     codeMessage = (`${newXp} XP.`);
                 }
@@ -50,7 +50,7 @@ if (typeof(Storage) !== "undefined") {
     });
 
     function validateCode(code) {
-        var validCodes = ["2024", "thisisnothowyougetverified", "whisper", "Alexi" ];
+        var validCodes = ["2024", "thisisnothowyougetverified",];
         return validCodes.includes(code);
     }
 
