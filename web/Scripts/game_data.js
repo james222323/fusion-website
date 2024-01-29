@@ -14,47 +14,109 @@
 //⠀⠀⠀⠀⠉⠙⠛⠛⠋⠛⠿⠛⢶⣶⣾⡿⠁⠀⠈⢦⣤⣤⣼⣿⣄⣀⣠⣿⠹⣄⣀⣾⡿⢧⣀⣀⣼⣿⠰⣤⣤⣤⣴⣶⣶⣶⣿⡿⠃⠉⠙⠛⠛⠛⠋⠁
 
 
-let lastUpdate = "1/8/2024 (v7.0)"
+let lastUpdate = "1/29/2024 (v7.1.0)"
 let gitcdnUrl = "https://cdnfs.sumibi.org"
 //CHANGE IMAGES ON HOME PAGE TOO
 const data = [
-    {
-        name: "Roblox",
-        id: "rbx",
-        genre: "Adventure",
-        description: "Roblox is an online game platform and game creation system developed by Roblox Corporation that allows users to program games and play games created by other users.",
-        link: `https://fusion.sumibi.org/web/fs-123we3gnb/rx.html`,
-        img: `${gitcdnUrl}/High Compressed/rbx.jpg`,
-        file_based: true,
-        publisher: "Roblox Corporation",
-        controls: [
-            "WASD",
-        ],
-        broken: true,
-        note: "Game won't load (WebSocket connection to wss failed)"
+ 
         
-
         // broken: true,
          //note: "Game won't load (WebSocket connection to wss failed)"
         // experimental: true
         //devices: "Computer, Mobile"
-    },
-    {
-        name: "Madden Mobile 24",
-        id: "md24",
-        genre: "Sports",
-        description: "Madden NFL 24 is an American football video game developed by EA Tiburon and published by EA Sports.",
-        link: `https://fusion.sumibi.org/web/fs-123we3gnb/md24.html`,
-        img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/mad24.jpg`,
-        file_based: true,
-        publisher: "EA Sports",
-        controls: [
-            "WASD",
-        ],
-        broken: true,
-        note: "Game won't load (WebSocket connection to wss failed)"
+ 
 
-    },
+        {
+            name: "Cut The Rope",
+            id: "ctr",
+            genre: "Puzzle",
+            description: "Cut the Rope is a media franchise of physics-based puzzle video games developed by entertainment company ZeptoLab for several platforms and devices.",
+            link: "https://fs9a.sumibi.org/games/cut-the-rope/game/index.html",
+            img: `https://cdn.jsdelivr.net/gh/james222323/fs/img/ctr.jpg`,
+            publisher: "ZeptoLab",
+            controls: [
+                "", 
+            ],
+            new: true
+        },
+        {
+            name: "Cut The Rope Holiday",
+            id: "ctrh",
+            genre: "Puzzle",
+            description: "Cut the Rope is a media franchise of physics-based puzzle video games developed by entertainment company ZeptoLab for several platforms and devices.",
+            link: "https://fs9a.sumibi.org/games/ctr-holiday/game/index.html",
+            img: `https://cdn.jsdelivr.net/gh/james222323/fs/img/ctr-holiday.jpg`,
+            publisher: "ZeptoLab",
+            controls: [
+                "",  
+            ],
+            new: true
+        },
+        {
+            name: "Cut The Rope Time",
+            id: "ctrt",
+            genre: "Puzzle",
+            description: "Cut the Rope is a media franchise of physics-based puzzle video games developed by entertainment company ZeptoLab for several platforms and devices.",
+            link: "https://fs9a.sumibi.org/games/ctr-tr/game/index.html",
+            img: `https://cdn.jsdelivr.net/gh/james222323/fs/img/ctr-time.jpg`,
+            publisher: "ZeptoLab",
+            controls: [
+                "",  
+            ],
+            new: true
+        },
+        {
+            name: "10 Minutes Till Dawn",
+            id: "10min",
+            genre: "Survival",
+            description: "10 Minutes Till Dawn is an action bullet-hell roguelite game to attack the enemies and survive for 10 minutes!",
+            link: "https://fs9a.sumibi.org/games/10min/game/index.html",
+            img: `https://cdn.jsdelivr.net/gh/james222323/fs/img/10min.webp`,
+            publisher: "Flannee",
+            controls: [
+                "",  
+            ],
+            new: true
+        },
+        {
+            name: "99 Balls EVO",
+            id: "99balls",
+            genre: "Miscellaneous",
+            description: "Try to pop the orbs by collecting enough balls to launch a destructive volley.",
+            link: "https://fs9a.sumibi.org/games/99balls/game/index.html",
+            img: `https://cdn.jsdelivr.net/gh/james222323/fs/img/99balls.jpg`,
+            publisher: "Diamond Games",
+            controls: [
+                "",  
+            ],
+            new: true
+        },
+        {
+            name: "Adventure Drivers",
+            id: "ad",
+            genre: "Driving",
+            description: "Adventure Drivers is a car racing game where you try to finish in first among other racers. ",
+            link: "https://fs9a.sumibi.org/games/adventure-drivers/game/index.html",
+            img: `https://cdn.jsdelivr.net/gh/james222323/fs/img/ad.png`,
+            publisher: "Domas Kazragis",
+            controls: [
+                "",  
+            ],
+            new: true
+        },
+        {
+            name: "Among Us",
+            id: "au",
+            genre: "Miscellaneous",
+            description: "Among Us is a 2018 online multiplayer social deduction game developed and published by American game studio Innersloth.",
+            link: "https://fs9a.sumibi.org/games/amoung-us/game/index.html",
+            img: `https://cdn.jsdelivr.net/gh/james222323/fs/img/au.jpg`,
+            publisher: "Innersloth",
+            controls: [
+                "",  
+            ],
+            new: true
+        },
         {
     name: "Gun Mayhem 2",
     id: "gun",
@@ -83,9 +145,20 @@ const data = [
     new: true
 },
 
+{
+    name: "Tetris",
+    id: "tetris",
+    genre: "Puzzle",
+    description: "The Tetris game was created by Alexey Pajitnov in 1984—the product of Alexey’s computer programming experience and his love of puzzles.",
+    link: "https://fs9a.sumibi.org/games/tetris/game/index.html",
+    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/tetris.jpeg`,
+    publisher: "Alexey Pajitnov",
+    controls: [
+        "",
+    ],
+    updated: true
+},
 
-
-    
 
     {
     name: "Geometry Dash",
@@ -735,7 +808,7 @@ const data = [
     controls: [
         "WASD",
     ],
-    updated: true
+
 },
 
 // smash
@@ -878,7 +951,7 @@ const data = [
     controls: [
         "",
     ],
-    new: true
+   
 },
 
 // motox3mpoolparty
@@ -893,7 +966,7 @@ const data = [
     controls: [
         "",
     ],
-    new: true
+    
 },
 
 // motox3mspookyland
@@ -908,7 +981,7 @@ const data = [
     controls: [
         "",
     ],
-    new: true
+    
 },
 
 // motox3mwinter
@@ -923,7 +996,7 @@ const data = [
     controls: [
         "",
     ],
-    new: true
+    
 },
 
 // ovo
@@ -1134,18 +1207,7 @@ const data = [
         "",
     ]
 },
-{
-    name: "Tetris",
-    id: "tetris",
-    genre: "Puzzle",
-    description: "The Tetris game was created by Alexey Pajitnov in 1984—the product of Alexey’s computer programming experience and his love of puzzles.",
-    link: "https://fs9a.sumibi.org/games/tetris/game/index.html",
-    img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/tetris.jpeg`,
-    publisher: "Alexey Pajitnov",
-    controls: [
-        "",
-    ]
-},
+
 {
     name: "Tiny Fishing",
     id: "tiny-fishing",
@@ -1169,7 +1231,7 @@ const data = [
     controls: [
         "",
     ],
-    new: true
+   
 },
 {
     name: "Tunnel Rush",
