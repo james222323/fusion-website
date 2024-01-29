@@ -216,11 +216,11 @@ function loadProfile(){
 
     var games_played = localStorage.getItem("playedGames") || null
     if(!games_played){
-        document.getElementById("games_played_text").innerText = `0/86`
+        document.getElementById("games_played_text").innerText = `0/92`
         document.getElementById("games_played").setAttribute("stroke-dasharray", "0, 100")
     } else {
-        document.getElementById("games_played_text").innerText = `${games_played.split("||").length - 1}/86`
-        document.getElementById("games_played").setAttribute("stroke-dasharray", Math.trunc((games_played.split("||").length - 1) / 86 * 100) + ", 100")
+        document.getElementById("games_played_text").innerText = `${games_played.split("||").length - 1}/92`
+        document.getElementById("games_played").setAttribute("stroke-dasharray", Math.trunc((games_played.split("||").length - 1) / 92 * 100) + ", 100")
     }
 
     var minutes_played = parseInt(localStorage.getItem("minutes_played")) || 0
