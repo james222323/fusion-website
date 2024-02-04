@@ -25,19 +25,7 @@ const data = [
         // experimental: true
         //devices: "Computer, Mobile"
  
-     {
-            name: "gm_tst_red-ball-4",
-            id: "gm_tst_red-ball-4",
-            genre: "NUll",
-            description: ".",
-            link: "http://localhost:5500/",
-            img: ``,
-            publisher: "",
-            controls: [
-                "", 
-            ],
-            new: true
-        },
+ 
 
         {
             name: "Cut The Rope",
