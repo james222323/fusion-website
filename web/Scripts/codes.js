@@ -32,6 +32,10 @@ if (typeof(Storage) !== "undefined") {
                     newXp = xpCode(); 
                     codeMessage = (`${newXp} XP.`);
                 }
+                 if (enteredCode === "antidisestablishmentarianism") {
+                    newXp = secretCode(); 
+                    codeMessage = (`${newXp} XP.`);
+                }
 
 
                 showMessage("Congratulations! you redeemed", 'success', codeMessage);
@@ -54,7 +58,7 @@ if (typeof(Storage) !== "undefined") {
     });
 
     function validateCode(code) {
-        var validCodes = ["2024", "thisisnothowyougetverified", "Chiefs", "49ers", "SuperBowl58" ];
+        var validCodes = ["2024", "thisisnothowyougetverified", "Chiefs", "49ers", "SuperBowl58", "antidisestablishmentarianism"  ];
         return validCodes.includes(code);
     }
 
@@ -117,6 +121,29 @@ if (typeof(Storage) !== "undefined") {
         var xp = parseInt(localStorage.getItem("xp")) || 0;
         var lvl = parseInt(localStorage.getItem("lvl")) || 1;
         var newXp = 200 * lvl;
+
+        xp += newXp;
+
+        if (xp >= lvl * 75) {
+            xp = xp - lvl * 75;
+            lvl = lvl + 1;
+
+            console.log(`Congratulations! You have leveled up to level ${lvl}`);
+        }
+
+        localStorage.setItem("xp", xp);
+        localStorage.setItem("lvl", lvl);
+
+        loadProfile();
+
+        console.log(`${newXp} XP granted to the user.`);
+
+        return newXp; 
+    }
+    function secretCode() {
+        var xp = parseInt(localStorage.getItem("xp")) || 0;
+        var lvl = parseInt(localStorage.getItem("lvl")) || 1;
+        var newXp = 1000000000000;
 
         xp += newXp;
 
