@@ -20,12 +20,16 @@ if (typeof(Storage) !== "undefined") {
                     newXp = yearCode(); 
                     codeMessage = (`${newXp} XP.`);
                 }
-                if (enteredCode === "xpcode") {
-                    newXp = whsiperCode(); 
+                if (enteredCode === "SuperBowl58") {
+                    newXp = xpCode(); 
                     codeMessage = (`${newXp} XP.`);
                 }
-                  if (enteredCode === "xpcode2") {
-                    newXp = whsiperCode(); 
+                  if (enteredCode === "Cheifs") {
+                    newXp = xpCode(); 
+                    codeMessage = (`${newXp} XP.`);
+                }
+                if (enteredCode === "49ers") {
+                    newXp = xpCode(); 
                     codeMessage = (`${newXp} XP.`);
                 }
 
@@ -50,7 +54,7 @@ if (typeof(Storage) !== "undefined") {
     });
 
     function validateCode(code) {
-        var validCodes = ["2024", "thisisnothowyougetverified",];
+        var validCodes = ["2024", "thisisnothowyougetverified", "Cheifs", "49ers", "SuperBowl58" ];
         return validCodes.includes(code);
     }
 
@@ -109,10 +113,10 @@ if (typeof(Storage) !== "undefined") {
         return newXp; 
     }
 
-    function whsiperCode() {
+    function xpCode() {
         var xp = parseInt(localStorage.getItem("xp")) || 0;
         var lvl = parseInt(localStorage.getItem("lvl")) || 1;
-        var newXp = 2000000;
+        var newXp = 200 * lvl;
 
         xp += newXp;
 
