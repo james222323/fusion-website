@@ -24,7 +24,7 @@ if (typeof(Storage) !== "undefined") {
                     newXp = xpCode(); 
                     codeMessage = (`${newXp} XP.`);
                 }
-                  if (enteredCode === "Cheifs") {
+                  if (enteredCode === "Chiefs") {
                     newXp = xpCode(); 
                     codeMessage = (`${newXp} XP.`);
                 }
@@ -54,7 +54,7 @@ if (typeof(Storage) !== "undefined") {
     });
 
     function validateCode(code) {
-        var validCodes = ["2024", "thisisnothowyougetverified", "Cheifs", "49ers", "SuperBowl58" ];
+        var validCodes = ["2024", "thisisnothowyougetverified", "Chiefs", "49ers", "SuperBowl58" ];
         return validCodes.includes(code);
     }
 
