@@ -14,7 +14,7 @@
 //⠀⠀⠀⠀⠉⠙⠛⠛⠋⠛⠿⠛⢶⣶⣾⡿⠁⠀⠈⢦⣤⣤⣼⣿⣄⣀⣠⣿⠹⣄⣀⣾⡿⢧⣀⣀⣼⣿⠰⣤⣤⣤⣴⣶⣶⣶⣿⡿⠃⠉⠙⠛⠛⠛⠋⠁
 
 
-let lastUpdate = "1/29/2024 (v7.1.0)"
+let lastUpdate = "2/05/2024 (v7.1.1)"
 let gitcdnUrl = "https://cdnfs.sumibi.org"
 //CHANGE IMAGES ON HOME PAGE TOO
 const data = [
@@ -24,9 +24,202 @@ const data = [
          //note: "Game won't load (WebSocket connection to wss failed)"
         // experimental: true
         //devices: "Computer, Mobile"
- 
- 
-
+        {
+            name: "Red Ball 4 Vol.3", 
+            id: "redball4vol3",
+            genre: "Simulation",
+            description: "Red Ball 4 is an action platformer in which you play as the amazing Red Ball! It's your job to roll Red Ball to the other side of the level without falling or getting hit by the monster cubes.",
+            link: "https://fs9a.sumibi.org/games/red-ball-4/game/index.html",
+            img: `https://cdn.jsdelivr.net/gh/james222323/fs/img/redball4.png`,
+            publisher: "Yohoho Games",
+            controls: [
+                "", 
+            ],
+            new: true
+           
+        },
+        {
+            name: "Papa’s Wingeria", 
+            id: "wing",
+            genre: "Simulation",
+            description: "Papa’s Wingeria is a casual restaurant game where you cook delicious wings for customers.",
+            link: "https://fs9a.sumibi.org/games/papas-wing/game/index.html",
+            img: `https://cdn.jsdelivr.net/gh/james222323/fs/img/papas-w.jpg`,
+            publisher: "Flipline Studios",
+            controls: [
+                "", 
+            ],
+            new: true
+           
+        },
+        {
+            name: "Papa’s Sushiria", 
+            id: "sushi",
+            genre: "Simulation",
+            description: "Papa’s Sushiria is a casual restaurant game where you create sushi for customers.",
+            link: "https://fs9a.sumibi.org/games/papas-sushi/game/index.html",
+            img: `https://cdn.jsdelivr.net/gh/james222323/fs/img/papas-sushi.jpg`,
+            publisher: "Flipline Studios",
+            controls: [
+                "", 
+            ],
+            new: true
+           
+        },
+        {
+            name: "Papa’s Scooperia", 
+            id: "scoop",
+            genre: "Simulation",
+            description: "Papa's Scooperia is a casual restaurant management game where you embark on a journey to run your ice cream shop and bring joy to customers of all ages. ",
+            link: "https://fs9a.sumibi.org/games/papas-s/game/index.html",
+            img: `https://cdn.jsdelivr.net/gh/james222323/fs/img/papas-s.jpeg`,
+            publisher: "Flipline Studios",
+            controls: [
+                "", 
+            ],
+            new: true
+           
+        },
+        {
+            name: "Papa’s Pastaria",
+            id: "pasta",
+            genre: "Simulation",
+            description: "Papa's Pastaria is a casual restaurant game where you take charge of an Italian restaurant, serving delectable pasta dishes.",
+            link: "https://fs9a.sumibi.org/games/papas-pasta/game/index.html",
+            img: `https://cdn.jsdelivr.net/gh/james222323/fs/img/papas-pasta.jpg`,
+            publisher: "Flipline Studios",
+            controls: [
+                "", 
+            ],
+            new: true
+           
+        },
+        {
+            name: "Papa’s Pancakeria",
+            id: "pancake",
+            genre: "Simulation",
+            description: "Papa’s Pancakeria is a casual restaurant game where you grill pancakes and serve them with delicious toppings to customers.",
+            link: "https://fs9a.sumibi.org/games/papas-pancake/game/index.html",
+            img: `https://cdn.jsdelivr.net/gh/james222323/fs/img/papas-pancake.jpeg`,
+            publisher: "Flipline Studios",
+            controls: [
+                "", 
+            ],
+            new: true
+           
+        },
+        {
+            name: "Papa’s Freezeria",
+            id: "freeze",
+            genre: "Simulation",
+            description: "Manage an ice cream shop in Papa’s Freezeria! Papa Louie is out of town and has left you in charge of the Freezeria.",
+            link: "https://fs9a.sumibi.org/games/papas-f/game/index.html",
+            img: `https://cdn.jsdelivr.net/gh/james222323/fs/img/papas-f.jpeg`,
+            publisher: "Flipline Studios",
+            controls: [
+                "", 
+            ],
+            new: true
+           
+        },
+        {
+            name: "Papa’s Donuteria",
+            id: "donut",
+            genre: "Simulation",
+            description: "Papa’s Donuteria is a casual restaurant game where you build delicious donuts for customers.",
+            link: "https://fs9a.sumibi.org/games/papas-d/game/index.html",
+            img: `https://cdn.jsdelivr.net/gh/james222323/fs/img/papas-d.jpeg`,
+            publisher: "Flipline Studios",
+            controls: [
+                "", 
+            ],
+            new: true
+           
+        },
+        {
+            name: "Papa’s Cupcakeria",
+            id: "cupcake",
+            genre: "Simulation",
+            description: "Papa’s Cupcakeria is a casual restaurant game where you work for Papa Louie making tasty cupcakes for customers.",
+            link: "https://fs9a.sumibi.org/games/papas-c/game/index.html",
+            img: `https://cdn.jsdelivr.net/gh/james222323/fs/img/papas-c.jpg`,
+            publisher: "Flipline Studios",
+            controls: [
+                "", 
+            ],
+            new: true
+           
+        },
+        {
+            name: "Papa’s Bakeria",
+            id: "bake",
+            genre: "Simulation",
+            description: "Papa’s back with a brand new pie shop - Papa’s Bakeria! As your newly employed baker, your task is to bake various exquisite baked goods for customers.",
+            link: "https://fs9a.sumibi.org/games/papas-bake/game/index.html",
+            img: `https://cdn.jsdelivr.net/gh/james222323/fs/img/papas-bake.jpeg`,
+            publisher: "Flipline Studios",
+            controls: [
+                "", 
+            ],
+            new: true
+           
+        },
+        {
+            name: "Soccer Random",
+            id: "soccer",
+            genre: "Sports",
+            description: "Soccer Random is a two-player soccer game with limited controls and hilarious physics.",
+            link: "https://fs9a.sumibi.org/games/soccer-random/game/index.html",
+            img: `https://cdn.jsdelivr.net/gh/james222323/fs/img/soccer.avif`,
+            publisher: "RHM Interactive",
+            controls: [
+                "", 
+            ],
+            new: true
+           
+        },
+        {
+            name: "Deepest Sword",
+            id: "sword",
+            genre: "Miscellaneous",
+            description: "Deepest Sword Venture deep into the Cavern of Longing in this short-yet-challenging physics platformer.",
+            link: "https://fs9a.sumibi.org/games/deepest-sowrd/game/index.html",
+            img: `https://cdn.jsdelivr.net/gh/james222323/fs/img/deep.webp`,
+            publisher: "Cosmic Adventure Squad",
+            controls: [
+                "", 
+            ],
+            new: true
+           
+        },
+        {
+            name: "Bob The Robber 2",
+            id: "robber2",
+            genre: "Miscellaneous",
+            description: "The city is in danger and it seems like all the other heroes are busy dealing with other things.",
+            link: "https://fs9a.sumibi.org/games/robber2/game/index.html",
+            img: `https://cdn.jsdelivr.net/gh/james222323/fs/img/robber2.jpeg`,
+            publisher: "Meow Beast",
+            controls: [
+                "", 
+            ],
+            new: true
+           
+        },
+        {
+            name: "OSU!",
+            id: "osu",
+            genre: "Rhythm",
+            description: "Osu! is a free-to-play rhythm game primarily developed, published, and created by Dean peppy Herbert. ",
+            link: "https://fs9a.sumibi.org/games/osu/game/index.html",
+            img: `https://cdn.jsdelivr.net/gh/james222323/fs/img/osu.jpg`,
+            publisher: "PPY",
+            controls: [
+                "", 
+            ],
+            new: true
+           
+        },
         {
             name: "Cut The Rope",
             id: "ctr",
@@ -38,7 +231,7 @@ const data = [
             controls: [
                 "", 
             ],
-            new: true
+           
         },
         {
             name: "Cut The Rope Holiday",
@@ -51,7 +244,7 @@ const data = [
             controls: [
                 "",  
             ],
-            new: true
+            
         },
         {
             name: "Cut The Rope Time",
@@ -64,7 +257,7 @@ const data = [
             controls: [
                 "",  
             ],
-            new: true
+            
         },
         {
             name: "10 Minutes Till Dawn",
@@ -77,7 +270,8 @@ const data = [
             controls: [
                 "",  
             ],
-            new: true
+            hot: true
+            
         },
         {
             name: "99 Balls EVO",
@@ -90,7 +284,7 @@ const data = [
             controls: [
                 "",  
             ],
-            new: true
+            
         },
         {
             name: "Adventure Drivers",
@@ -103,7 +297,7 @@ const data = [
             controls: [
                 "",  
             ],
-            new: true
+            
         },
         {
             name: "Among Us",
@@ -116,7 +310,7 @@ const data = [
             controls: [
                 "",  
             ],
-            new: true
+            
         },
         {
     name: "Gun Mayhem 2",
@@ -129,7 +323,7 @@ const data = [
     controls: [
         "Arow Keys",
     ],
-    new: true
+    
 },
 
 {
@@ -143,7 +337,7 @@ const data = [
     controls: [
         "Arow Keys",
     ],
-    new: true
+    
 },
 
 {
@@ -157,7 +351,7 @@ const data = [
     controls: [
         "",
     ],
-    updated: true
+    
 },
 
 
@@ -240,7 +434,8 @@ const data = [
     publisher: "Hyper Hippo Entertainment",
     controls: [
         "",
-    ]
+    ],
+    hot: true
 },
 
 // adofai
@@ -564,7 +759,8 @@ const data = [
     publisher: "Orteil",
     controls: [
         "Left Click",
-    ]
+    ],
+    hot: true
 },
 
 // crossy
@@ -592,7 +788,8 @@ const data = [
     publisher: "Unknown",
     controls: [
         "Left, Right Arows",
-    ]
+    ],
+    hot: true
 },
 
 
