@@ -429,7 +429,7 @@ const data = [
     id: "adcap",
     genre: "Idle",
     description: "AdVenture Capitalist is a free-to-play incremental video game developed and published by Hyper Hippo Productions",
-    link: "https://fs9a.sumibi.org/games/acap/game/index.html",
+    link: "https://fs9a.sumibi.org/games/adcap/game/index.html",
     img: `https://cdn.jsdelivr.net/gh/james222323/fs@master/img/ac.jpeg`,
     publisher: "Hyper Hippo Entertainment",
     controls: [
