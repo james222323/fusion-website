@@ -24,7 +24,7 @@ function setAccentStrength(){
     if(!strength) localStorage.setItem("accentStrength", "Good");
 
     if(accent === "None (Default)"){
-        return document.body.style.setProperty("--accent-opacity", 0);
+        return document.body.style.setProperty("--accent-opacity", 0.4);
     }
     if(strength === "Very Weak") document.body.style.setProperty("--accent-opacity", 0.1);
     if(strength === "Weak") document.body.style.setProperty("--accent-opacity", 0.2);
@@ -53,7 +53,8 @@ function setAccent(){
     if(strength === "Strong 💪") strength = 0.4;
 
     if(accent === "None (Default)"){
-        document.body.style.setProperty("--accent-opacity", 0)
+        document.body.style.setProperty("--accent-color", "#f6290e")
+        document.body.style.setProperty("--accent-opacity", strength)
     }
     if(accent === "Purple"){
         document.body.style.setProperty("--accent-color", "#695CFE")
@@ -444,10 +445,10 @@ if(ddl !== null){
 
 function setMode(){
     let mode = localStorage.getItem("mode")
-    if(!mode) mode = "Dark"
+    if(!mode) mode = "Darker Dark"
 
-    if(mode === "Dark" || mode === "Dark Themed" || mode === ""){
-        localStorage.setItem("mode", "Dark");
+    if(mode === "Dark" || mode === "Darker Dark" || mode === ""){
+        localStorage.setItem("mode", "Darker Dark");
         if(body.classList[0] !== "dark") body.classList.toggle("dark");
         loadTheme();
     }
