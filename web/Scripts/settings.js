@@ -19,7 +19,7 @@ setAccentStrength()
 
 function setAccentStrength(){
     let accent = localStorage.getItem("accentColor");
-    if(!accent) accent = "Strong 💪";
+    if(!accent) accent = "Red";
     let strength = localStorage.getItem("accentStrength");
     if(!strength) localStorage.setItem("accentStrength", "Good");
 
