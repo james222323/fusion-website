@@ -19,11 +19,11 @@ setAccentStrength()
 
 function setAccentStrength(){
     let accent = localStorage.getItem("accentColor");
-    if(!accent) accent = "Red";
+    if(!accent) accent = "None (Default)";
     let strength = localStorage.getItem("accentStrength");
     if(!strength) localStorage.setItem("accentStrength", "Good");
 
-    if(accent === "Red"){
+    if(accent === "None (Default)"){
         return document.body.style.setProperty("--accent-opacity", 0);
     }
     if(strength === "Very Weak") document.body.style.setProperty("--accent-opacity", 0.1);
@@ -45,14 +45,14 @@ if(ddl !== null){
 
 function setAccent(){
     let accent = localStorage.getItem("accentColor");
-    if(!accent) accent = "Red";
+    if(!accent) accent = "None (Default)";
     let strength = localStorage.getItem("accentStrength");
     if(strength === "Very Weak") strength = 0.1;
     if(strength === "Weak") strength = 0.2;
     if(strength === "Good" || !strength) strength = 0.3;
     if(strength === "Strong 💪") strength = 0.4;
 
-    if(accent === "Red"){
+    if(accent === "None (Default)"){
         document.body.style.setProperty("--accent-opacity", 0)
     }
     if(accent === "Purple"){
@@ -679,7 +679,7 @@ if(ddl !== null){
     if(accentSelect){
         accentSelect.addEventListener("change", function(event){
             if(localStorage.getItem("accentColor") === null){
-                localStorage.setItem("accentColor", "Red");
+                localStorage.setItem("accentColor", "None (Default)");
             }
             localStorage.setItem("accentColor", event.target.value);
             setAccent();
