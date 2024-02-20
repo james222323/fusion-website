@@ -43,7 +43,7 @@ const data = [
             id: "tag",
             genre: "2 PLayer",
             description: "tag",
-            link: "https://fs9a.sumibi.org/games/stick-fighter/game/index.html",
+            link: "https://fs9a.sumibi.org/games/tag/game/index.html",
             img: `https://fusion.sumibi.org/web/tempimg/tag.jpeg`,
             publisher: "JetGames",
             controls: [
