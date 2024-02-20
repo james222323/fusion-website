@@ -14,7 +14,7 @@
 //⠀⠀⠀⠀⠉⠙⠛⠛⠋⠛⠿⠛⢶⣶⣾⡿⠁⠀⠈⢦⣤⣤⣼⣿⣄⣀⣠⣿⠹⣄⣀⣾⡿⢧⣀⣀⣼⣿⠰⣤⣤⣤⣴⣶⣶⣶⣿⡿⠃⠉⠙⠛⠛⠛⠋⠁
 
 
-let lastUpdate = "2/05/2024 (v7.1.1)"
+let lastUpdate = "2/19/2024 (v7.1.2)"
 let gitcdnUrl = "https://cdnfs.sumibi.org"
 //CHANGE IMAGES ON HOME PAGE TOO
 const data = [
@@ -23,7 +23,63 @@ const data = [
         // broken: true,
          //note: "Game won't load (WebSocket connection to wss failed)"
         // experimental: true
-        //devices: "Computer, Mobile"
+        //devices: "Computer, Mobile" 
+        {
+            name: "OSU! Mania", 
+            id: "osum",
+            genre: "Rythm",
+            description: "",
+            link: "https://fs9a.sumibi.org/games/osu-mania/game/index.html",
+            img: `https://fusion.sumibi.org/web/tempimg/images__13_.png`,
+            publisher: "PPY",
+            controls: [
+                "", 
+            ],
+            new: true
+           
+        },
+         {
+            name: "Tag", 
+            id: "tag",
+            genre: "2 PLayer",
+            description: "tag",
+            link: "https://fs9a.sumibi.org/games/stick-fighter/game/index.html",
+            img: `https://fusion.sumibi.org/web/tempimg/tag.jpeg`,
+            publisher: "JetGames",
+            controls: [
+                "", 
+            ],
+            new: true
+           
+        },
+          {
+            name: "Stick Fighter", 
+            id: "stick",
+            genre: "2 PLayer",
+            description: "Stick Fighter is a fighting game where you take control of one six characters, all of whom have completely different move sets!",
+            link: "https://fs9a.sumibi.org/games/stick-fighter/game/index.html",
+            img: `https://fusion.sumibi.org/web/tempimg/stick.png`,
+            publisher: "ARF Game Studio",
+            controls: [
+                "", 
+            ],
+            new: true
+           
+        },
+        {
+            name: "Terraria", 
+            id: "terraria",
+            genre: "Miscellaneous",
+            description: "Terraria is a 2011 action-adventure sandbox game developed by Re-Logic.",
+            link: "https://fs9a.sumibi.org/games/terraria/game/index.html",
+            img: `https://fusion.sumibi.org/web/tempimg/t.jpeg`,
+            publisher: "Re-Logic",
+            controls: [
+                "", 
+            ],
+            new: true
+           
+        },
         {
             name: "Red Ball 4 Vol.3", 
             id: "redball4vol3",
@@ -35,7 +91,7 @@ const data = [
             controls: [
                 "", 
             ],
-            new: true
+            
            
         },
         {
@@ -49,7 +105,7 @@ const data = [
             controls: [
                 "", 
             ],
-            new: true
+           
            
         },
         {
@@ -63,7 +119,7 @@ const data = [
             controls: [
                 "", 
             ],
-            new: true
+          
            
         },
         {
@@ -77,7 +133,7 @@ const data = [
             controls: [
                 "", 
             ],
-            new: true
+          
            
         },
         {
@@ -91,7 +147,7 @@ const data = [
             controls: [
                 "", 
             ],
-            new: true
+            
            
         },
         {
@@ -105,7 +161,7 @@ const data = [
             controls: [
                 "", 
             ],
-            new: true
+           
            
         },
         {
@@ -119,7 +175,7 @@ const data = [
             controls: [
                 "", 
             ],
-            new: true
+            
            
         },
         {
@@ -133,7 +189,7 @@ const data = [
             controls: [
                 "", 
             ],
-            new: true
+            
            
         },
         {
@@ -147,7 +203,7 @@ const data = [
             controls: [
                 "", 
             ],
-            new: true
+            
            
         },
         {
@@ -161,7 +217,7 @@ const data = [
             controls: [
                 "", 
             ],
-            new: true
+          
            
         },
         {
@@ -175,7 +231,7 @@ const data = [
             controls: [
                 "", 
             ],
-            new: true
+            
            
         },
         {
@@ -189,7 +245,7 @@ const data = [
             controls: [
                 "", 
             ],
-            new: true
+            
            
         },
         {
@@ -203,7 +259,7 @@ const data = [
             controls: [
                 "", 
             ],
-            new: true
+           
            
         },
         {
@@ -217,7 +273,7 @@ const data = [
             controls: [
                 "", 
             ],
-            new: true
+            
            
         },
         {
