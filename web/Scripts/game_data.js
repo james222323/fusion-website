@@ -24,6 +24,20 @@ const data = [
          //note: "Game won't load (WebSocket connection to wss failed)"
         // experimental: true
         //devices: "Computer, Mobile" 
+             {
+            name: "Infinite Craft", 
+            id: "ic",
+            genre: "Infinite",
+            description: "",
+            link: "https://fs9a.sumibi.org/games/infinite-craft/game/index.html",
+            img: `https://fusion.sumibi.org/web/tempimg/infinite-craft.png`,
+            publisher: "PPY",
+            controls: [
+                "", 
+            ],
+            new: true
+           
+        },
         {
             name: "OSU! Mania", 
             id: "osum",
