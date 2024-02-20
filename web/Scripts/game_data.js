@@ -31,7 +31,7 @@ const data = [
             description: "",
             link: "https://fs9a.sumibi.org/games/infinite-craft/game/index.html",
             img: `https://fusion.sumibi.org/web/tempimg/infinite-craft.png`,
-            publisher: "PPY",
+            publisher: "Neal",
             controls: [
                 "", 
             ],
